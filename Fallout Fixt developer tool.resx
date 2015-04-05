@@ -1,0 +1,1849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value> 1   LEATHER ARMOR	00000003.PRO
+ 2   METAL ARMOR	00000001.PRO
+ 3   POWER ARMOR	00000014.PRO
+ 4   KNIFE		00000012.PRO
+ 5   CLUB			00000009.PRO
+ 6   SLEDGEHAMMER	00000005.PRO
+ 7   SPEAR		00000013.PRO
+ 8   10MM PISTOL		00000004.PRO
+ 9   10MM SMG		00000002.PRO
+10   HUNTING RIFLE	00000011.PRO
+11   FLAMETHROWER	00000010.PRO
+12   MINIGUN		00000006.PRO
+13   ROCKET LAUNCHER	00000007.PRO
+14   ROCKET (EXPL)	00000008.PRO
+          
+COMBAT_SUBTYPE_NONCOM_TURN    (5)
+
+INVEN_WORN              (0)      elevation(0) = top
+INVEN_RIGHT_HAND  (1)         elev(1) = lower
+INVEN_LEFT_HAND     (2)         elev(2) = lowest
+                                                
+item_type_armor        (0)              genchat = 766
+item_type_container   (1)
+item_type_drug            (2)            16777216
+item_type_weapon       (3)
+item_type_ammo          (4)
+item_type_misc_item    (5)
+item_type_key_item       (6)
+
+ONE_GAME_SECOND             (10)
+ONE_GAME_MINUTE              (60*10)</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>1	Leather Armor	
+2	Metal Armor	
+3	Power Armor	
+4	Knife	
+5	Club	
+6	Sledgehammer	
+7	Spear	
+8	10mm Pistol	
+9	10mm SMG	
+10	Hunting Rifle	
+11	Flamethrower	
+12	Minigun	
+13	Rocket Launcher	
+14	Explosive Rocket	
+15	Plasma Rifle	
+16	Laser Pistol	
+17	Combat Armor	
+18	Desert Eagle .44	
+19	Rock	
+20	Crowbar	
+21	Brass Knuckles	
+22	14mm Pistol	
+23	Assault Rifle	
+24	Plasma Pistol	
+25	Grenade (Frag)	
+26	Grenade (Plasma)	
+27	Grenade (EMP)	
+28	Gatling Laser	
+29	10mm JHP	
+30	10mm AP	
+31	.44 Magnum JHP	
+32	Flamethrower Fuel	
+33	14mm AP	
+34	.223 FMJ	
+35	5mm JHP	
+36	5mm AP	
+37	Rocket AP	
+38	Small Energy Cell	
+39	Micro Fusion Cell	
+40	Stimpak	
+41	Bottle Caps	
+42	Fridge	
+43	Ice Chest	
+44	Ice Chest	
+45	Throwing Knife	
+46	Bag	
+47	First Aid Kit	
+48	RadAway	
+49	Antidote	
+50	Reserved Item	
+51	Dynamite	
+52	Geiger Counter	
+53	Mentats	
+54	Stealth Boy	
+55	Water Chip	
+56	Dog Tags	
+57	Bug	
+58	Holodisk	
+59	Motion Sensor	
+60	Bookcase	
+61	Bookcase	
+62	Bookcase	
+63	Bookcase	
+64	Bookcase	
+65	Bookcase	
+66	Desk	
+67	Desk	
+68	Dresser	
+69	Dresser	
+70	Dresser	
+71	Irradiated Fruit	
+72	Briefcase	
+73	Big Book of Science	
+74	Leather Jacket	
+75	MultiTool	
+76	Dean's Electronics	
+77	Electronic Lock Pick	
+78	Fuzzy Painting	
+79	Flare	
+80	First Aid Book	
+81	Iguana-on-a-stick	
+82	Key	
+83	Key Ring	
+84	Lock Picks	
+85	Plastic Explosives	
+86	Scout Handbook	
+87	Buffout	
+88	Watch	
+89	Motor	
+90	Back Pack	
+91	Doctor's Bag	
+92	Scorpion Tail	
+93	Bag	
+94	Shotgun	
+95	12-gauge Shotgun Shells	
+96	Red Pass Key	
+97	Blue Pass Key	
+98	Junk	
+99	Gold Locket	
+100	Radio	
+101	Lighter	
+102	Guns and Bullets	
+103	Iguana-on-a-stick	
+104	Tape Recorder	
+105	Key	
+106	Nuka-Cola	
+107	Bones	
+108	Bones	
+109	Rad-X	
+110	Psycho	
+111	.44 Magnum FMJ	
+112	Urn	
+113	Robes	
+114	Tangler's Hand	
+115	Super Sledge	
+116	Ripper	
+117	Flower	
+118	Laser Rifle	
+119	Necklace	
+120	Alien Blaster	
+121	9mm ball	
+122	9mm Mauser	
+123	Psychic Nullifier	
+124	Beer	
+125	Booze	
+126	Water Flask	
+127	Rope	
+128	Footlocker	
+129	Footlocker	
+130	Footlocker	
+131	Footlocker	
+132	Locker	
+133	Locker	
+134	Locker	
+135	Locker	
+136	Locker	
+137	Locker	
+138	Locker	
+139	Locker	
+140	Access Card	
+141	COC Badge	
+142	COC Badge	
+143	Sniper Rifle	
+144	Super Stimpak	
+145	Bookshelf	
+146	Bookshelf	
+147	Bookshelf	
+148	Bookshelf	
+149	Bookshelf	
+150	Bookshelf	
+151	Shelves	
+152	Shelves	
+153	Shelves	
+154	Shelves	
+155	Shelves	
+156	Shelves	
+157	Workbench	
+158	Tool Board	
+159	Molotov Cocktail	
+160	Cattle Prod	
+161	Red Ryder BB Gun	
+162	Red Ryder LE BB Gun	
+163	BBs	
+164	Brotherhood Disk	
+165	Iguana Stand	
+166	Table	
+167	Table	
+168	Stuff	
+169	Stuff	
+170	Stuff	
+171	Stuff	
+172	Stuff	
+173	Stuff	
+174	Stuff	
+175	Stuff	
+176	Stuff	
+177	Stuff	
+178	Stuff	
+179	Stuff	
+180	Crate	
+181	Desk	
+182	Desk	
+183	Desk	
+184	Desk	
+185	Desk	
+186	Desk	
+187	Desk	
+188	Locker	
+189	Locker	
+190	FEV Disk	
+191	Security Disk	
+192	Alpha Experiment Disk	
+193	Delta Experiment Disk	
+194	Vree's Experiment Disk	
+195	Brotherhood Honor Code	
+196	Mutant Transmissions	
+197	Box	
+198	Box	
+199	Box	
+200	Box	
+201	Box	
+202	Box	
+203	Box	
+204	Box	
+205	Flare	
+206	Dynamite	
+207	Geiger Counter	
+208	Motion Sensor	
+209	Plastic Explosives	
+210	Stealth Boy	
+211	Bones	
+212	Tandi	
+213	Remains of Gizmo	
+214	Desk	
+215	Brotherhood History	
+216	Maxson's History	
+217	Maxson's Journal	
+218	Light Healing	
+219	Medium Healing	
+220	Heavy Healing	
+221	Security Card	
+222	Field Switch	
+223	Yellow Pass Key	
+224	Small Statuette	
+225	You Have No Idea	
+226	Box Of Noodles	
+227	Small Dusty Box Of Some Sort	
+228	Technical Manual	
+229	Small Piece Of Machinery	
+230	Vault Records	
+231	Military Base Security Code	
+232	Hardened Power Armor	
+233	Turbo Plasma Rifle	
+234	Spiked Knuckles	
+235	Power Fist	
+236	Combat Knife	
+237	Chemistry Journals	
+238	Regulator Transmission	
+239	Brotherhood Armor	
+240	Tesla Armor	
+241	.223 Pistol	
+242	Combat Shotgun	
+243	Cheater	
+244	Gold Nugget	
+</value>
+  </data>
+  <data name="textBox4.Text" xml:space="preserve">
+    <value>1	Vault-dweller	16777217	
+2	Townsman	16777218	
+3	Townsman	16777219	
+4	Loser		16777220	
+5	Peasant		16777221	
+6	Vault-dweller	16777222	
+7	Power Armor	16777223	
+8	The Overseer	16777224	
+9	Super Mutant	16777225	
+10	Greater Mole Rat	16777226	
+11	Radscorpion	16777227	
+12	Person in Robes	16777228	
+13	Merchant		16777229	
+14	Zombie Guard	16777230	
+15        Combat Armor Female	16777231	
+16	Glowing One	16777232	
+17          Leather Jacket Man	16777233	
+18	Peasant		16777234	
+19     Leather Jacket Woman	16777235	
+20	Peasant		16777236	
+21          Male Combat Armor	16777237	
+22	Townswoman	16777238	
+23	Super Mutant Lt.	16777239	
+24	Townswoman	16777240	
+25	Nightkin		16777241	
+26	Vault-dweller	16777242	
+27	Male Guard	16777243	
+28	Brahma		16777244	
+29	Peasant		16777245	
+30	Peasant		16777246	
+31        Man in Leather Armor	16777247	
+32	Peasant		16777248	
+33	Citizen		16777249	
+34	Vault-dweller	16777250	
+35	Vault-dweller	16777251	
+36	Dog		16777252	
+37	Woman		16777253	
+38	Man		16777254	
+39	Peasant		16777255	
+40	Peasant		16777256	
+41      Person In Power Armor	16777257	
+42	Boy		16777258	
+43	Lesser Centaur	16777259	
+44	Mr. Handy	16777260	
+45	Floater		16777261	
+46	Scribe		16777262	
+47	The Overseer	16777263	
+48	Cave Rat		16777264	
+49	Gizmo		16777265	
+50	Master		16777266	
+51	Deathclaw	16777267	
+52	Technician	16777268	
+53	Technician	16777269	
+54	Technician	16777270	
+55	Guard		16777271	
+56	Guard		16777272	
+57	Guard		16777273	
+58	Technician	16777274	
+59	Citizen		16777275	
+60	Bum		16777276	
+61	Worker		16777277	
+62	Cathedral Student	16777278	
+63	Tandi		16777279	
+64	Aradesh		16777280	
+65	Seth		16777281	
+66	Merchant		16777282	
+67	Guard		16777283	
+68	Mantis		16777284	
+69	Robobrain	16777285	
+70	Raider Guard	16777286	
+71	Citizen		16777287	
+72	Citizen		16777288	
+73	Garl's Advisor	16777289	
+74	Citizen		16777290	
+75	Raider		16777291	
+76	Ian		16777292	
+77	Floating Eye	16777293	
+78	Pig Rat		16777294	
+79	Killian Darkwater	16777295	
+80	Lars		16777296	
+81	Izo		16777297	
+82	Traveler		16777298	
+83	Citizen		16777299	
+84	Citizen		16777300	
+85	Traveler		16777301	
+86	Peasant		16777302	
+87	Citizen		16777303	
+88	Merchant		16777304	
+89	Stranger		16777305	
+90	Guard		16777306	
+91	Farmer		16777307	
+92	Merchant		16777308	
+93	Peasant		16777309	
+94	Neal		16777310	
+95	Peasant		16777311	
+96	Worker		16777312	
+97	Merchant		16777313	
+98	Peasant		16777314	
+99	Thug		16777315	
+100	Stranger		16777316	
+101    Child of the Cathedral	16777317	
+102	Vinnie		16777318	
+103	Traveler		16777319	
+104	Set		16777320	
+105	Garret		16777321	
+106	Zombie		16777322	
+107	Nightkin Guard	16777323	
+108     Tough Super Mutant	16777324	
+109	Ghoul Guard	16777325	
+110	Undergrounder	16777326	
+111	Dan		16777327	
+112	Sheriff Greene	16777328	
+113	Deputy Fry	16777329	
+114	Kane		16777330	
+115	Demetre		16777331	
+116	Keri		16777332	
+117	Rutger		16777333	
+118	Daren Hightower	16777334	
+119	Martha		16777335	
+120	Lorenzo		16777336	
+121	Jacob		16777337	
+122	Dogmeat		16777338	
+123	Jasmine		16777339	
+124	Troy		16777340	
+125	Darrell		16777341	
+126	Talus		16777342	
+127	Thomas		16777343	
+128	Mathia		16777344	
+129	Razor		16777345	
+130	Tangler		16777346	
+131	Talius		16777347	
+132	Gabriel		16777348	
+133	Avellone		16777349	
+134	VanHagan	16777350	
+135	Surf		16777351	
+136	Lasher		16777352	
+137	Barracus		16777353	
+138	Jeremiah		16777354	
+139    Super Mutant Medic	16777355	
+140	Gideon		16777356	
+141	Dominic		16777357	
+142	Lucy		16777358	
+143	Wiggup		16777359	
+144	Viscious		16777360	
+145    Super Mutant Lieutenant	16777361	
+146	Laura		16777362	
+147	Morpheus		16777363	
+148	Nicole		16777364	
+149	Vree		16777365	
+150	Maxson		16777366	
+151	Rhombus		16777367	
+152	Cabbot		16777368	
+153	Decker		16777369	
+154	Butch		16777370	
+155	Loxley		16777371	
+156	Jain		16777372	
+157	Harold		16777373	
+158	Harry		16777374	
+159	Tough Rat	16777375	
+160	Irradiated Rat	16777376	
+161       Tough Irradiated Rat	16777377	
+162	Lesser Mole Rat	16777378	
+163	Coyote		16777379	
+164	Large Brahma	16777380	
+165	Deathclaw Spawn	16777381	
+166	Nasty Radscorpion	16777382	
+167	Bloody Floater	16777383	
+168	Greater Centaur	16777384	
+169	Lowly Peasant	16777385	
+170	Peasant		16777386	
+171	Farmer		16777387	
+172	Worker		16777388	
+173	Farmer		16777389	
+174	Merchant		16777390	
+175	Guard		16777391	
+176	Great Mantis	16777392	
+177	Mean Pig Rat	16777393	
+178	Farmer		16777394	
+179	Worker		16777395	
+180	Merchant		16777396	
+181	Guard		16777397	
+182	Glower		16777398	
+183	Mad Glowing One	16777399	
+184	Zombie		16777400	
+185	Guard		16777401	
+186	Super Mutant Guard	16777402	
+187	Mean Super Mutant	16777403	
+188	Mad Super Mutant	16777404	
+189	Deadly Super Mutant	16777405	
+190	Tough Nightkin	16777406	
+191	Deadly Nightkin	16777407	
+192	Super Nightkin	16777408	
+193	Master Nightkin	16777409	
+194	Guard	16777410	
+195	Merchant	16777411	
+196	Guard	16777412	
+197	Guard	16777413	
+198	Guard	16777414	
+199	Girl	16777415	
+200	Scribe	16777416	
+201	Guard	16777417	
+202	Stranger	16777418	
+203	Thug	16777419	
+204	Mercenary	16777420	
+205	Guard	16777421	
+206	Vault-dweller	16777422	
+207	Garl	16777423	
+208	Doc Morbid	16777424	
+209	Gretch	16777425	
+210	Tycho	16777426	
+211	Jonathan	16777427	
+212	Jacob	16777428	
+213	Mary	16777429	
+214	Rachael	16777430	
+215	Caleb	16777431	
+216	Traveler	16777432	
+217	Stranger	16777433	
+218	Thug	16777434	
+219	Mercenary	16777435	
+220	Guard	16777436	
+221	Citizen	16777437	
+222	Stranger	16777438	
+223	Thug	16777439	
+224	Mercenary	16777440	
+225	Guard	16777441	
+226	Citizen	16777442	
+227	Traveler	16777443	
+228	Stranger	16777444	
+229	Thug	16777445	
+230	Mercenary	16777446	
+231	Guard	16777447	
+232	Citizen	16777448	
+233	Traveler	16777449	
+234	Mercenary	16777450	
+235	Guard	16777451	
+236	Traveler	16777452	
+237	Stranger	16777453	
+238	Thug	16777454	
+239	Mercenary	16777455	
+240	Guard	16777456	
+241	Thug	16777457	
+242	Mercenary	16777458	
+243	Guard	16777459	
+244	Traveler	16777460	
+245	Stranger	16777461	
+246	Thug	16777462	
+247	Mercenary	16777463	
+248	Guard	16777464	
+249	Traveler	16777465	
+250	Stranger	16777466	
+251	Thug	16777467	
+252	Mercenary	16777468	
+253	Guard	16777469	
+254	Traveler	16777470	
+255	Stranger	16777471	
+256	Thug	16777472	
+257	Mercenary	16777473	
+258	Guard	16777474	
+259	Traveler	16777475	
+260	Stranger	16777476	
+261	Thug	16777477	
+262	Mercenary	16777478	
+263	Guard	16777479	
+264	Initiate Knight	16777480	
+265	Senior Initiate Knight	16777481	
+266	Apprentice Knight	16777482	
+267	Journeyman Knight	16777483	
+268	Senior Knight	16777484	
+269	Initiate Knight	16777485	
+270	Senior Initiate Knight	16777486	
+271	Apprentice Knight	16777487	
+272	Journeyman Knight	16777488	
+273	Senior Knight	16777489	
+274	Junior Paladin	16777490	
+275	Paladin	16777491	
+276	Senior Paladin	16777492	
+277	Junior Paladin	16777493	
+278	Paladin	16777494	
+279	Senior Paladin	16777495	
+280	Initiate Scribe	16777496	
+281	Senior Initiate Scribe	16777497	
+282	Apprentice Scribe	16777498	
+283	Journeyman Scribe	16777499	
+284	Senior Scribe	16777500	
+285	Initiate Scribe	16777501	
+286	Senior Initiate Scribe	16777502	
+287	Apprentice Scribe	16777503	
+288	Journeyman Scribe	16777504	
+289	Senior Scribe	16777505	
+290	Robed Man	16777506	
+291	Master's Child	16777507	
+292	Cathedral Student	16777508	
+293	Robed Woman	16777509	
+294	Master's Child	16777510	
+295	Master's Pet	16777511	
+296	Master's Thug	16777512	
+297	Master's Guard	16777513	
+298	Master's Pet	16777514	
+299	Master's Thug	16777515	
+300	Master's Guard	16777516	
+301	Doctor	16777517	
+302	Katja	16777518	
+303	Sasha	16777519	
+304	Mysterious Stranger	16777520	
+305	Mindless Ghoul	16777521	
+306	Eyeball, Mk II	16777522	
+307	Egg	16777523	
+308	Dugan	16777524	
+309	Mother Deathclaw	16777525	
+310	Hammer	16777526	
+311	Dead Traveler	16777527	
+312	Kenji	16777528	
+313	Ian	16777529	
+314	Ian	16777530	
+315	Ian	16777531	
+316	Ian	16777532	
+317	Ian	16777533	
+318	Ian	16777534	
+319	Ian	16777535	
+320	Ian	16777536	
+321	Ian	16777537	
+322	Ian	16777538	
+323	Ian	16777539	
+324	Ian	16777540	
+325	Ian	16777541	
+326	Ian	16777542	
+327	Ian	16777543	
+328	Ian	16777544	
+329	Ian	16777545	
+330	Ian	16777546	
+331	Ian	16777547	
+332	Ian	16777548	
+333	Ian	16777549	
+334	Ian	16777550	
+335	Ian	16777551	
+336	Ian	16777552	
+337	Ian	16777553	
+338	Ian	16777554	
+339	Ian	16777555	
+340	Tycho	16777556	
+341	Tycho	16777557	
+342	Tycho	16777558	
+343	Tycho	16777559	
+344	Tycho	16777560	
+345	Tycho	16777561	
+346	Tycho	16777562	
+347	Tycho	16777563	
+348	Tycho	16777564	
+349	Tycho	16777565	
+350	Tycho	16777566	
+351	Tycho	16777567	
+352	Tycho	16777568	
+353	Tycho	16777569	
+354	Tycho	16777570	
+355	Tycho	16777571	
+356	Tycho	16777572	
+357	Tycho	16777573	
+358	Tycho	16777574	
+359	Tycho	16777575	
+360	Tycho	16777576	
+361	Tycho	16777577	
+362	Tycho	16777578	
+363	Tycho	16777579	
+364	Tycho	16777580	
+365	Tycho	16777581	
+366	Tycho	16777582	
+367	Katja	16777583	
+368	Katja	16777584	
+369	Katja	16777585	
+370	Katja	16777586	
+371	Katja	16777587	
+372	Katja	16777588	
+373	Katja	16777589	
+374	Katja	16777590	
+375	Katja	16777591	
+376	Katja	16777592	
+377	Katja	16777593	
+378	Katja	16777594	
+379	Katja	16777595	
+380	Katja	16777596	
+381	Katja	16777597	
+382	Katja	16777598	
+383	Katja	16777599	
+384	Katja	16777600	
+385	Katja	16777601	
+386	Katja	16777602	
+387	Katja	16777603	
+388	Katja	16777604	
+389	Katja	16777605	
+390	Katja	16777606	
+391	Katja	16777607	
+392	Katja	16777608	
+393	Katja	16777609	
+394	Baby Radscorpion	16777610	
+395	Mother Radscorpion	16777611	
+396	The Overseer	16777612	
+
+</value>
+  </data>
+  <data name="textBox5.Text" xml:space="preserve">
+    <value>1	obj_dude.int   ;	player script - was cr_dialg.int 	
+2	elder.int      ;	The Elder from Shady Sands		
+3	barter.int     ;	The Barterman from Shady Sands      		
+4	bguard.int     ;	Only a bodyguard from Shady Sands for the Barterman     		
+5	cow.int        ;	It's just a cow.		
+6	MoatGrd.int    ;	Moat guard for the Gun Runners      		
+7	guard.int      ;	Guard from Shady Sands    		
+8	loser.int      ;	The loser from Shady Sands		
+9	pleasant.int   ;	The pleasant peasant from Shady Sands         		
+10	GunRnr.int     ;	generic Gun Runner        		
+11	map_init.int   ;	Map for the Vault for the E3 demo   		
+12	radscorp.int   ;	Radiation Scorpions near Shady Sands		
+13	mutant2.int    ;	Invisible Mutants         		
+14	sswell.int     ;	Shady Sands well		
+15	set.int        ;	Set, the leader of Necropolis       		
+16	harry.int      ;	Harry the Super Mutant    		
+17	stimpack.int   ;	Stimpack script to heal players when used     		
+18	cover.int      ;	A cover for the Manhole   		
+19	manhole.int    ;	A manhole that leads to the Necropolis Sewers 		
+20	ladder.int     ;	Ladder leading down to the Necropolis Sewers  		
+21	chair.int      ;	A chairs in the hotel which you shouldn't sit on        		
+22	coke.int       ;	Nuka-Cola machine which lucky players can get money     		
+23	computer.int   ;	NOT USEDA broken computer in the Necropolis hotel office.         		
+24	dead.int       ;	Look at the dead bodies, daddy!     		
+25	desk.int       ;	Standard, Master-issued desk, complete with nothing     		
+26	1dedgul1.int   ;	Dead ghouls (?) 		
+27	1molrat1.int   ;	Mole Rat in Necropolis (?)		
+28	1manhol1.int   ;	Manhole to get to the Sewers in Necropolis (?)		
+29	1ladder1.int   ;	Ladder for the Manhole in Necropolis (?)      		
+30	MANAGER.int    ;	Ghoul manager of the Necropolis Hotel         		
+31	alphhotl.int   ;	Map Script for Pre-Alpha demo       		
+32	genghoul.int   ;	Generic Necropolis zombie, and used for other truly generic ghoul msgs.     		
+33	Aradesh.int    ;	Aradesh NPC from Shady Sands        		
+34	Brahmin.int    ;	Brahmin (cows) from Junktown who just stand there       		
+35	Cougar.int     ;	Doc Morbid's Assistant, Cougar, from Junktown 		
+36	Flash.int      ;	Doc Morbid's Assistant, Flash, from Junktown  		
+37	JtGenGrd.int   ;	Generic guards from Junktown        		
+38	JtPeasnt.int   ;	Generic peasants from Junktown      		
+39	Butch.int      ;	Butch, leader of some merchants in Hub        		
+40	Cabbot.int     ;	Cabbot, the initiate from the Brotherhood of Steel      		
+41	Childmem.int   ;	Children of the Cathedral member    		
+42	Decker.int     ;	Decker, the head of the Hub Underground       		
+43	DONOTUSE.int   ;	      		
+44	Gizmo.int      ;	Gizmo, the casino owner in Junktown 		
+45	Harold.int     ;	Harold, the old ghoul from the Hub  		
+46	Jain.int       ;	Jain, Priestess of the Children of the Cathedral        		
+47	Killian.int    ;	Killian, law enforcement in Junktown		
+48	Laura.int      ;	Laura, the spy for the Followers of the Apocalypse      		
+49	Loxley.int     ;	Loxley, head of the Thieve's Circle in the hub		
+50	Lt.int         ;	The Lieutenant of the Master's army 		
+51	Master.int     ;	The general Bad guy of the entire game        		
+52	Maxson.int     ;	General John Maxson, High Elder of the Brotherhood of Steel       		
+53	Morph.int      ;	Morpheus (not relation to Orpheus) of the Children (power hungry) 		
+54	Nicole.int     ;	Yes, it is the same Nicole from the Followers of the Apocalypse   		
+55	Over.int       ;	The great Overseer of Vault 13 (chicken)      		
+56	Rhombus.int    ;	Rhombus, the Armsmaster for the Brotherhood of Steel    		
+57	Tandi.int      ;	Tandi, the minx from Shady Sands    		
+58	Vree.int       ;	Vree, the Scribe from the Brotherhood of Steel          		
+59	1MoleRat.int   ;	Mole Rat Boss (nasty guy) 		
+60	AirLock.int    ;	Open this Airlock, and we all look at space   		
+61	Barry.int      ;	Barry the Super Mutant    		
+62	DeadComp.int   ;	Easter egg computer in Necropolis Hotel (from Demo's DEMOCOMP)    		
+63	Door.int       ;	Sorry, the door has a lock on it. Try to pick it.       		
+64	Ganger.int     ;	I'm afraid of all these Ganger ghouls.        		
+65	Gary.int       ;	Uh oh. It's Gary the Super Mutant   		
+66	Generic.int    ;	Hey Mom! Look at the generic Ghouls 		
+67	GenGhoul.int   ;	Hey Mom! Look at the generic Ghouls 		
+68	GenGlow1.int   ;	It's a Generic Glowing One		
+69	GhDead.int     ;	It's a dead ghoul that we see here. 		
+70	GhDorGrd.int   ;	Ghoul Door Guard.         		
+71	GhGenDed.int   ;	Generic dead ghouls for Necropolis. 		
+72	GhGuard.int    ;	Ghoul guard for Set.      		
+73	DONOTUSE.int   ;	      		
+74	GhRefuge.int   ;	Ghoul Refugee hiding the the Zombie hideout   		
+75	GhZero.int     ;	A ghoul guard   		
+76	GlowOne.int    ;	Glowing Ones that are caged by Set. 		
+77	Groundr.int    ;	Necropolis Undergrounders 		
+78	Guard.int      ;	Guard from Shady Sands    		
+79	Harry.int      ;	DUPLICATE ENTRY, DO NOT USE (Harry the Super Mutant with many lines)        		
+80	Larry.int      ;	Larry the Super Mutant    		
+81	Leader.int     ;	The leader of the Underground resistance in Necropolis  		
+82	DONOTUSE.int   ;	      		
+83	Mangled.int    ;	Some mangled bodies in Necropolis.  		
+84	Meander.int    ;	Some meandering ghouls    		
+85	Mutant2.int    ;	The invisible mutants.    		
+86	NH2OComp.int   ;	Necropolis Water Computer 		
+87	NH2OPump.int   ;	Necropolis Water Pump     		
+88	OddWall.int    ;	There is something odd about this wall in Necropolis    		
+89	Prisonr.int    ;	Prisoner of the Super Mutants in Necropolis   		
+90	Sally.int      ;	Sally the male Super Mutant (sex change??)    		
+91	graffiti.int   ;	generic graffiti on the walls       		
+92	SetColer.int   ;	Cooler in Set's room which has goodies.       		
+93	SetDesk.int    ;	Set's desk which has a note on it   		
+94	SetDoor1.int   ;	Door to Set's room that is trapped  		
+95	SetGuard.int   ;	Guards to protect Set from Harm.    		
+96	SetSctDr.int   ;	Set's Secret Door.        		
+97	Smell.int      ;	It's an odd smell in Necropolis (must be ghouls?)       		
+98	StimPack.int   ;	A stim pack to heal you   		
+99	StoreRom.int   ;	Spacial script for the Necropolis store room  		
+100	Super.int      ;	Super Mutants from the city Necropolis        		
+101	Terry.int      ;	Terry the Super Mutant (fly away)   		
+102	Garret.int     ;	Set's lacky in Necropolis 		
+103	Gretch.int     ;	Gretch, Doctor Morbid's Assistant   		
+104	Morbid.int     ;	Doctor in Junktown known for taking body parts		
+105	Dumar.int      ;	Dumar, Acrolyte of the Children     		
+106	Barstow.int    ;	Zack Barstow, Initiate of the Children        		
+107	Genint.int     ;	generic initiates for Children      		
+108	JChidMem.int   ;	Junktown Children of the Cathedral Member     		
+109	Lookout.int    ;	Necropolis Undergrounder Lookout    		
+110	MachIV.int     ;	Mach IV computer in Buried Vaul that is broken		
+111	BlkRoom.int    ;	Spacial to say the room is blocked in the Buried Vault  		
+112	RndDesrt.int   ;	Random Encounter Desert Map         		
+113	TGuard.int     ;	Tower Guard for Shady Sands         		
+114	cook.int       ;	A cook from Shady Sands kitchen     		
+115	citizen.int    ;	Random Citizen from Shady Sands     		
+116	HousChar.int   ;	A chair in the House of a citizen from Shady Sands      		
+117	AgathBed.int   ;	Bed in Agatha's room from Shady Sands         		
+118	RozBed.int     ;	Bed in Razlo's room from Shady sands		
+119	Wife.int       ;	Razlo's wife from Shady Sands       		
+120	SDresser.int   ;	Dresser for Razlo or Agatha in Shady Sands    		
+121	ShadyRug.int   ;	Generic Rugs in Shady Sands         		
+122	SBokcase.int   ;	Shady Sands bookcase with books     		
+123	MuteJar.int    ;	A jar of Mutated Fruit from Shady Sands       		
+124	ShadDesk.int   ;	Desk in Aradesh's room from Shady Sands       		
+125	CookShel.int   ;	Shelf with food on them for the Kitchen in Shady Sands  		
+126	CookTabl.int   ;	Table in the Kitchen in Shady Sands which holds food.   		
+127	Fruit.int      ;	Mutated fruit in the Gardens of Shady Sands   		
+128	PenSmell.int   ;	Spacial script for the smell around the Brahma Pen      		
+129	Razlo.int      ;	Razlo from Shady Sands. Local Healer		
+130	ValtCtzn.int   ;	Vault 13 citizen with random lines  		
+131	ValtLock.int   ;	Vault 13 airlock.         		
+132	ValtMon.int    ;	Vault 13 Monitor in the Meeting Room		
+133	CoreComp.int   ;	Central Core computers in Vault 13  		
+134	LibComp.int    ;	Library computer in Vault 13        		
+135	Kalnor.int     ;	Guard in Junktown, was "Assblow"    		
+136	GenRaidr.int   ;	Generic Raiders 		
+137	Garl.int       ;	Garl from the Raiders' camp         		
+138	RaidPris.int   ;	Raider prisoner in the camp         		
+139	Petrox.int     ;	Petrox, a Raider from the camp      		
+140	Tolya.int      ;	Tolya, a Desert Raider    		
+141	Gwen.int       ;	One of Garl's "Advisors." She is mean.        		
+142	Diana.int      ;	One of the Raiders who repairs raider equipment.        		
+143	Alya.int       ;	High spirited female Raider         		
+144	LivingQ.int    ;	Spacial in the living quarters of the Buried Vault (Vault 15)     		
+145	Meeting.int    ;	Spacial in the Meeting room of the Buried Vault         		
+146	BVStore.int    ;	Spacial in the Storage room of the Buried Vault         		
+147	BVLib.int      ;	Spacial in the Library of the Buried Vault.   		
+148	BVCore.int     ;	Spacial in the Central Core of the Buried Vault         		
+149	BVMeet.int     ;	Spacial in the Meeting room of Buried Vault (rat tunnel).         		
+150	BVLive.int     ;	Spacial in the Living Quarters of Buried Vault (key in chair).    		
+151	UndrBed.int    ;	Spacial in Living Quarters of Buried Vault (under bed)  		
+152	RubChip.int    ;	Spacial in Rubble of Buried Vault. Chip is buried       		
+153	RubCore.int    ;	Spacial in Rubble of Buried Vault. Core is buried       		
+154	BVAirL.int     ;	Spacial for Buried Vault. (Airlock) 		
+155	HallDed1.int   ;	Map script for Hall of Dead         		
+156	Gabriel.int    ;	Gabe, the leader of the Gun Runners 		
+157	HiCraps.int    ;	High-stakes craps game    		
+158	NUp2Dwn1.int   ;	jump from Ground-level to Sewers (Northern most) (Hall Dead)      		
+159	NUp2Dwn2.int   ;	jump from Ground-level to Sewers (Southern most) (Hall Dead)      		
+160	NDwn2Up1.int   ;	jump from Sewers to Ground-level (Northern most) (Hall Dead)      		
+161	NDwn2Up2.int   ;	jump from Sewers to Ground-level (Southern most) (Hall Dead)      		
+162	GateDemo.int   ;	Generic gate guard for the demo     		
+163	WtrGrd.int     ;	Water guard for Vault 13  		
+164	WatrShed.int   ;	Map script for the Necrop Water     		
+165	NWUp2Dn1.int   ;	jump from Ground-level to Sewers (West) (Necrop Watershed)        		
+166	NWUp2Dn2.int   ;	jump from Ground-level to Sewers (North) (Necrop Watershed)       		
+167	NWUp2Dn3.int   ;	jump from Ground-level to Sewers (South) (Necrop Watershed)       		
+168	Cindy.int      ;	Person getting rations from Vault 13		
+169	NWDn2Up1.int   ;	jump from Sewers to Ground-level (North) (Necrop Watershed)       		
+170	NWDn2Up2.int   ;	jump from Sewers to Ground-level (West) (Necrop Watershed)        		
+171	NWDn2Up3.int   ;	jump from Sewers to Ground-level (South) (Necrop Watershed)       		
+172	Andrew.int     ;	Jail gaurd for the junktown cells   		
+173	HotelMap.int   ;	Map script for Necrop Hotel         		
+174	Lorraine.int   ;	Lorraine from the Boneyard		
+175	NHUp2Dn1.int   ;	jump from Ground-level to Sewers (North) (Necrop Hotel)           		
+176	NHUp2Dn2.int   ;	jump from Ground-level to Sewers (West) (Necrop Hotel)            		
+177	NHUp2Dn3.int   ;	jump from Ground-level to Sewers (East) (Necrop Hotel)            		
+178	Officer.int    ;	Officer from Vault 13     		
+179	NHDn2Up1.int   ;	jump from Sewers to Ground-level (North) (Necrop Hotel)           		
+180	NHDn2Up2.int   ;	jump from Sewers to Ground-level (West) (Necrop Hotel)            		
+181	NHDn2Up3.int   ;	jump from Sewers to Ground-level (East) (Necrop Hotel)            		
+182	RadSCave.int   ;	Map Script for radscorpion Caves    		
+183	Seth.int       ;	Seth from Shady Sands to transport to radscorpion Caves.		
+184	Medic.int      ;	Medic from Vault 13.      		
+185	GenVault.int   ;	Generic Vault 13 dweller. 		
+186	JunkCas.int    ;	Map Script for Casino area in Junktown        		
+187	JunkKill.int   ;	Map Script for Killian's area in Junktown     		
+188	JunkEnt.int    ;	Map Script for Entrance to Junktown 		
+189	BLKROM.int     ;	blocked room in the buried Vault    		
+190	BVAIR.int      ;	buried Vault air lock     		
+191	BVCache.int    ;	cache of medical suppies in the buried Vault  		
+192	BVEnt.int      ;	Buried Vault ENtrance     		
+193	ShadyEt.int    ;	Map Script for Shady Sands East     		
+194	ShadyWst.int   ;	Map Script for Shady Sands West     		
+195	MEDLAB.int     ;	medlab in front of the buried Vault 		
+196	Shack.int      ;	Shack above the buried Vault        		
+197	Seth2.int      ;	Seth from radscorpion Caves to transport to Shady Sands 		
+198	scribeA.int    ;	Scribe from the Brotherhood         		
+199	Vault13.int    ;	Map Script for Vault 13   		
+200	BVElv1W.int    ;	Buried Vault Elevator. Level 1 West --&gt; Level 2 East    		
+201	BVElv2E.int    ;	Buried Vault Elevator. Level 2 East --&gt; Level 1 West    		
+202	BVElv2W.int    ;	Buried Vault Elevator. Level 2 West --&gt; Level 3         		
+203	BVElv3.int     ;	Buried Vault Elevator. Level 3 --&gt; Level 2 West         		
+204	BVBroken.int   ;	Buried Vault. The elevator is broken		
+205	BroHdEnt.int   ;	Map Script for Brotherhood of Steel Entrance  		
+206	RatPit.int     ;	Breeding Pit of rats in Vault 13 area         		
+207	FearDark.int   ;	Vault 13. If the player is afraid of the dark 		
+208	ValtLeav.int   ;	First time leaving Vault 13         		
+209	ValtCupl.int   ;	Couple from Vault 13 who take your room       		
+210	YourRoom.int   ;	Spacial Script for your room.       		
+211	SSGuide.int    ;	Shady Sands Guide to help the player get started.       		
+212	LiteLeav.int   ;	Light showing from outside world    		
+213	ValtCore.int   ;	Spacial Script for Vault 13 Central Core      		
+214	VCompOp.int    ;	Water Computer in Vault 13 Operations Room    		
+215	ValtOp.int     ;	Spacial Script for Vault 13 Operations        		
+216	ValtSec.int    ;	Spacial Script for Vault 13 Security		
+217	ValtStor.int   ;	Spacial Script for Vault 13 Storage 		
+218	ValtMeet.int   ;	Spacial Script for Vault 13 Meeting room      		
+219	ValtMed.int    ;	Spacial Script for Vault 13 Medical Lab       		
+220	JunkDemo.int   ;	Map Script for Junkdemo.Map (for demo)        		
+221	GuarDemo.int   ;	Junktown guard w/ pickpocket (for demo)       		
+222	WanRats.int    ;	Wandering, Hostile rats   		
+223	Flare.int      ;	flares to light the player's way    		
+224	ValEl1.int     ;	Vault 13 Elevator level 1 		
+225	ValEl2w.int    ;	Vault 13 Elevator level 2 west      		
+226	ValEl2e.int    ;	Vault 13 Elevator level 2 east      		
+227	ValEl3.int     ;	Vault 13 Elevator level 3 		
+228	Vaultbur.int   ;	Map Script for Buried Vault         		
+229	dog.int        ;	a dog that wanders around 		
+230	GhRndGrd.int   ;	Random Ghoul Guard in Necropolis    		
+231	GhKick.int     ;	Ghoul who is going to kick your...  		
+232	Mutant3.int    ;	Super Mutant in Hall Dead. Guards door (no move)        		
+233	Mutant4.int    ;	Super Mutant in Hall Dead. Guards door (paces/checks for dead mutant3)      		
+234	Mutant5.int    ;	Super Mutant in Necropolis (place holder)     		
+235	Ian.int        ;	Injured Shady Sands guard 		
+236	Curtis.int     ;	Shady Sands farmer        		
+237	Child.int      ;	a generic Child 		
+238	RaidMap.int    ;	Map Script for the Raider Camp      		
+239	MutFruit.int   ;	Mutated Fruits (heals but gives rad damage)   		
+240	RaidGrd.int    ;	Raider Guard    		
+241	Hunter.int     ;	Bounty Hunter collecting on the Child killer's head     		
+242	Dog2.int       ;	Dog that follows you around if you are Mad Maxx         		
+243	Duc.int        ;	Trader to Shady Sands     		
+244	RndCity.int    ;	Map Script for Random City encounter		
+245	RndCoast.int   ;	Map Script for Random Coastal encounters      		
+246	RndMtn.int     ;	Map Script for Random Mountain encounters     		
+247	Gambler.int    ;	Gambler in Junktown who appears in The Hub later on.    		
+248	VaultEnt.int   ;	Map script for Vault Entrance       		
+249	Miles.int      ;	The chemist of Adytum     		
+250	Smitty.int     ;	Adytum's blacksmith       		
+251	Adytownr.int   ;	Generic script for an Adytum inhabitant       		
+252	Regulatr.int   ;	Generic Regulator, guard of Adytum  		
+253	Lorri.int      ;	from the Brotherhood      		
+254	Sammael.int    ;	Scav from Adytum		
+255	Caleb.int      ;	Head of the Regulators from Adytum  		
+256	Taylor.int     ;	Shop keeper/trader from Adytum      		
+257	Julianna.int   ;	Julianna from the Adytum  		
+258	FolSchol.int   ;	A scholar from the Followers        		
+259	FolInit.int    ;	An initiate from the Follower       		
+260	FlSupMut.int   ;	Super Mutant in the Followers area  		
+261	ChidScol.int   ;	a scholar from the Children         		
+262	ChidInit.int   ;	An Initiate from the Children       		
+263	FolScout.int   ;	A Scout for the Followers 		
+264	FolGuard.int   ;	A Guard for the Followers 		
+265	ThSupMut.int   ;	Generic Thinker Super Mutant in the Boneyard  		
+266	Heather.int    ;	Heather, a spy for the Children     		
+267	Peter.int      ;	Head of the Follower's scouts       		
+268	Jake.int       ;	second in command of the Followers  		
+269	Orfeo.int      ;	Senior Children member in Boneyard  		
+270	Marney.int     ;	The Doctor/Nurse of the Followers   		
+271	Neil.int       ;	Neil, head of the Followers guard   		
+272	Amber.int      ;	teacher for the Followers 		
+273	Uthern.int     ;	Leader of the Super Mutant Scouts in Boneyard 		
+274	Talius.int     ;	A ghoul Follower in the Boneyard    		
+275	ChdGuard.int   ;	Generic Children guard in Boneyard  		
+276	ChdScout.int   ;	Generic Children scout in Boneyard  		
+277	ScSupMut.int   ;	Generic Scout Super Mutant in the Boneyard    		
+278	Razor.int      ;	Razor, leader of the Blades         		
+279	Blade.int      ;	Generic Blades from the Boneyard    		
+280	Fire.int       ;	Fire, second in command of the Blades         		
+281	Beca.int       ;	Beca and Jade. Quartermistress of the Blades  		
+282	Dolgan.int     ;	Dolgan, the weaponmaster from the Blades      		
+283	Michelle.int   ;	Michelle, leader of the scouts for the Blades 		
+284	Dragon.int     ;	Dragon, Night watchman for the Blades         		
+285	Romero.int     ;	Just a Blade in love w/ some chick in Adytum  		
+286	Brohd12.int    ;	Map Script of the Brotherhood of Steel (level 1,2)      		
+287	Brohd34.int    ;	Map Script for Brotherhood of Steel (level 3,4)         		
+288	Jon.int        ;	John Zimmerman from the Adytum      		
+289	RippPris.int   ;	Ripper Prisoner in the Boneyard     		
+290	ScribeB.int    ;	Another scribe from the Brotherhood 		
+291	BVLad.int      ;	Buried Vault Ladder which leads to the Surface		
+292	CharBody.int   ;	A charred body in the Glow		
+293	BoneBody.int   ;	dry bones from a body in the Glow   		
+294	DeadBro.int    ;	the corpses of dead Brotherhood people        		
+295	GenDisk.int    ;	Generic  Holodisks found in the Glow		
+296	HotSpot.int    ;	Radiation Hot Spot in the Glow (Spatial script)         		
+297	PerNPwr.int    ;	Dead person in Power Armor in the Glow.       		
+298	Glo1Weap.int   ;	Glow Level 1 Weapon Depot door.     		
+299	GloComp.int    ;	Computer ZR32 from the Glow.        		
+300	Glo3Supl.int   ;	Glow Level 3 Supply Depot door.     		
+301	GlowGen.int    ;	The generator for the Glow.         		
+302	GlowPump.int   ;	The water pump from the Glow        		
+303	SciRoom.int    ;	The living quarters of the Esteemed scientists.         		
+304	SentryGn.int   ;	Sentry Gun trap in the Glow         		
+305	GloRdDor.int   ;	The Red passkey doors in the Glow   		
+306	GloBlDor.int   ;	The Blue passkey doors in the Glow  		
+307	Glo3Wep.int    ;	Glow, Level 3, Weapon Depot door.   		
+308	GlwBox.int     ;	On Level 4 of the glow, Security Check Lockbox		
+309	Tylier.int     ;	Tylier, the security computer in the Glow     		
+310	GlowCage.int   ;	Cage for the animals in the Glow    		
+311	GlowTabl.int   ;	Table in the Glow         		
+312	Zax.int        ;	Zax the AI computer from the Glow   		
+313	GlwAlien.int   ;	Skeleton of a dead alien body       		
+314	Freezer.int    ;	Note in the freezer of the Glow.    		
+315	Farli.int      ;	Farli from the Brotherhood of Steel 		
+316	Darrel.int     ;	Darrel, Cabbot's replacement in the Brotherhood         		
+317	PalGuard.int   ;	Paladin Guard in the Brotherhood surface (Caravan Guard)		
+318	Talus.int      ;	Talus, Rombus's second in command.  		
+319	Sophia.int     ;	Sophia, an instructor for the Brotherhood     		
+320	Michael.int    ;	Distributes weapons to initiates.   		
+321	Glo4Weap.int   ;	Weapon depot on level 4 of the Glow 		
+322	ScribeA.int    ;	Scribe in the main computer room    		
+323	ScribeB.int    ;	Generic Scribe  		
+324	Sentry.int     ;	Paladin guard after invasion        		
+325	PaladinA.int   ;	Paladin in the Hall of the Brotherhood.       		
+326	PaladinB.int   ;	Paladin in the Guard room 		
+327	PaladinC.int   ;	Paladin in the Main Computer Room   		
+328	GloBlElv.int   ;	Blue Elevator in the Glow.		
+329	KnightA.int    ;	Knight in the Computer Room         		
+330	KnightB.int    ;	generic Knights in the Brotherhood. 		
+331	GlowDesk.int   ;	a jammed desk in the Glow.		
+332	WeapSys.int    ;	Spatial warning that the weapon system is armed.        		
+333	Artifact.int   ;	the artifact the Brotherhood sends you to find.         		
+334	GloCabn.int    ;	locked cabinet in the Glow.         		
+335	GasTrap.int    ;	Gas Trap in the Glow      		
+336	LazrTrap.int   ;	Laser beam trap in the Glow.        		
+337	JtRaider.int   ;	A crazy Raider in Junktown		
+338	Sinthia.int    ;	Sinthia, the Sell Baby in Junktown  		
+339	Marcelle.int   ;	Owner of the Crash House in Junktown		
+340	KillSafe.int   ;	Killian's personal safe.            		
+341	JtBob.int      ;	Bob from Junktown. Pretty much a dead beat    		
+342	Trish.int      ;	Trish, a waitress in Junktown's Skum Pitt     		
+343	V13Door.int    ;	Main door to Vault 13     		
+344	V13Comp.int    ;	Computer to open Vault 13 door.     		
+345	DiskA.int      ;	Holodisk w/ Alpha Experiment in the Glow      		
+346	DiskD.int      ;	Holodisk w/ Delta Experiment in the Glow      		
+347	FEVDisk.int    ;	Holodisk w/ FEV Experiment in the Glow        		
+348	VreeDisk.int   ;	Holodisk w/ Vree's report 		
+349	SecDisk.int    ;	Holodisk w/ Security Code for the Glow        		
+350	CodeDisk.int   ;	Holodisk w/ Brotherhood Honor Code  		
+351	GenGambl.int   ;	generic gambler in junktown         		
+352	Phil.int       ;	Phil is trying to get into his Junktown Condo           		
+353	Junkdog.int    ;	dog who is blocking phil from the Condo       		
+354	ChepSlot.int   ;	cheapy slot machine       		
+355	GoodSlot.int   ;	Good paying slot machine            		
+356	LowJack.int    ;	low stakes Blackjack                		
+357	HighJack.int   ;	high stakes Blackjack.              		
+358	ChocTech.int   ;	Children of the Cathedral Technician in the Military Base         		
+359	Abel.int       ;	Abel, lowers the Force Shield E     		
+360	FieldA.int     ;	Force Field A             		
+361	Radio.int      ;	Radio for the Military Base         		
+362	VatSign.int    ;	Sign to the Vats Control Room       		
+363	VConDoor.int   ;	Door to get into the Vats Control Room        		
+364	ForcComp.int   ;	Force Field Controller Computer in the Vats   		
+365	MrHandyA.int   ;	Mr. Handy from the Vats   		
+366	MrHandyB.int   ;	Mr. Handy from the Vats   		
+367	Flip.int       ;	Recent Convert to the Nightkin      		
+368	RobCtrl.int    ;	No, this does not control me, It controls the Robots    		
+369	VSgTeam9.int   ;	Vats, Sergeant of Team 9 Nightkin   		
+370	VatTeam9.int   ;	Vats, Team 9 member       		
+371	VConComp.int   ;	Vats Control Computer     		
+372	PeasantD.int   ;	This is Phil's smart-alec friend    		
+373	DemoComp.int   ;NOT USEDComputer for the demo        			
+374	DemoDog.int    ;	dog for the Demo          		
+375	DemoPeas.int   ;	Phil's smart-alec friend for the Demo         		
+376	DemoPhil.int   ;	Phil in the dog scenerio for demo             		
+377	Zack.int       ;	some loser from the Gun Runners     		
+378	Theresa.int    ;	Faction leader in the Vault trying to get out of the Vault (not from MI)    		
+379	Rebel.int      ;	Rebels against the Empire and the Emperor Overseer      		
+380	DemoDoor.int   ;	locked freezer in the demo		
+381	ScribeC.int    ;	a third scribe from the Brotherhood 		
+382	Jason.int      ;	Jason from Adytum.        		
+383	Thug.int       ;	generic thug from the Boneyard      		
+384	Lasher.int     ;	Lasher from the Children of the Cathedral     		
+385	Vinnie.int     ;	Leader of the Skuls gang in Junktown		
+386	Victor.int     ;	Skulz Sociopath 		
+387	Shark.int      ;	Skulz ganger in the Skum Pitt       		
+388	Sherry.int     ;	Another member of the Skulz         		
+389	Tycho.int      ;	Desert Ranger in Junktown 		
+390	GenSkulz.int   ;	generic Skulz member      		
+391	Slummer.int    ;	Brainwashed member of the Children  		
+392	Zark.int       ;	Cathedral Thug  		
+393	Calder.int     ;	Flower child of the Children        		
+394	ChidNite.int   ;	Generic Nightkin at the Cathedral   		
+395	ChidGAB.int    ;	Children Generic Attitude Boy       		
+396	GenChant.int   ;	Generic Chanter from the Children   		
+397	Barracus.int   ;	Leader of the Thug faction in the Children    		
+398	Chanter.int    ;	Generic Chanter 1 from the Children 		
+399	Francis.int    ;	Sister Francis from the Children    		
+400	DocWu.int      ;	foul-mouthed doc from the Children  		
+401	Rutger.int     ;	second in command of the Far Go Traders       		
+402	Phrax.int      ;	From the Demo, guard for the Crypts.		
+403	DemoGen.int    ;	Generator for the demo    		
+404	DemoCryp.int   ;	generic Crypt ganger member for the demo      		
+405	DemoFool.int   ;	generic Fool ganger memeber for the demo      		
+406	Lenny.int      ;	the Bhrama master for the demo      		
+407	Icepick.int    ;	Leader of the Fools.      		
+408	Skizzer.int    ;	gate guard for the demo   		
+409	Pez.int        ;	generic peasant for the demo        		
+410	Rock.int       ;	another guard for the demo		
+411	Lex.int        ;	Leader of Scrapheap for the demo    		
+412	Rayze.int      ;	leader of the Crypts for the demo   		
+413	Skippy.int     ;	Lead wirecutter boy       		
+414	Baka.int       ;	Leader of the Fools       		
+415	ScoutC.int     ;	has the player scouted the Crypts?  		
+416	ScoutF.int     ;	has the player scouted the Fools?   		
+417	FollMap.int    ;	this is the map for the Followers in the Boneyard       		
+418	SemiComp.int   ;	Computer that is barely functional in Necrop Vault      		
+419	RadRat.int     ;	Rats which make you have a healthly glow      		
+420	NGarFrdg.int   ;	Necropolis, Garret's Fridge         		
+421	WtrLadr.int    ;	Ladder. Leads to ground  [from the sewers above NecVault]         		
+422	NecVLadr.int   ;	Ladder leading from the Necrop Vault to the sewers      		
+423	NecVHole.int   ;	Manhole leading to the Necrop Vault 		
+424	WtrHole.int    ;	Manhole. Leads to Sewers [towards NecVault]   		
+425	ValtNec.int    ;	Map Script for the Necrop Vault     		
+426	TownMap.int    ;	This will bring up the townmap if the player tries using the obj. 		
+427	MVAirloc.ssl   ;	 Master's Vault: Airlock door       		
+428	MVBShelf.ssl   ;	 Master's Vault: Bookshelf		
+429	MVSctShf.ssl   ;	 Master's Vault: Bookshelf with secret door   		
+430	V13Cave.int    ;	Map Script for the Vault 13 cave    		
+431	MVRCrDor.int   ;	Reactor Core Door in the Master's Vault       		
+432	Command.int    ;	something for the military base     		
+433	GenSupr.int    ;	Generic Super Mutant in the military base     		
+434	Krupper.int    ;	Krupper from the military base      		
+435	Vanhag.int     ;	Vanhaggen from the military base    		
+436	Vasquez.int    ;	Vasquez from junktown     		
+437	JnkScout.int   ;	Scout in Junktown         		
+438	PeasantC.int   ;	peasant in Junktown       		
+439	GenRaid2.int   ;	another type of generic Raider      		
+440	Jarvis.int     ;	Some guy from Shady Sands           		
+441	MBStrong.int   ;	Map Script for the Military Base  [Stronghold]		
+442	MBVats.int     ;	Map Script for the Military Base  [Vats]      		
+443	MBEnt.int      ;	Map Script for the Military Base  [Entrance]  		
+444	Childrn1.int   ;	Map Script for the lower level of the Children of the Cathedral   		
+445	Childrn2.int   ;	Map Script for the Towers of the Children of the Cathedral        		
+446	Master1.int    ;	Map Script for the upper 2 level of the Master's Vault  		
+447	Master2.int    ;	Map Script for the lower 2 level of the Master's Vault  		
+448	MVComp.int     ;	Nuclear warhead control computer in the Master's Vault  		
+449	MVNuke.int     ;	The nuclear warhead in the Master's Vault     		
+450	MVDwn2Up.int   ;	go from the lower layers of Master's Vault to the upper 		
+451	MVUp2Dwn.int   ;	go from the upper layers to the lower layers of Master's Vault    		
+452	Chid2Mas.int   ;	go from the Children of the Cathedral to the Master's Lair        		
+453	Mas2Chid.int   ;	go from the Master's Lair to the Children     		
+454	Chid2Twr.int   ;	go from the main floor to tower of the Children         		
+455	Tow2Chid.int   ;	go from the tower to main floor of the Children         		
+456	COCDoor.int    ;	Transport from outside to inside of Children  		
+457	Cave2v13.int   ;	Vault 13 caves to Vault 13		
+458	V132Cave.int   ;	Vault 13 to Vault 13 caves		
+459	SecDoor.int    ;	door to Vault 13 armory             		
+460	SpotLite.int   ;	affect the light level of the light scenery   		
+461	WtrThief.int   ;	Water Thief from Vault 13 		
+462	Jennifer.int   ;	Jennifer from the Brotherhood of Steel        		
+463	Blast.int      ;	an explosion for the Buried Vault   		
+464	UzChair.int    ;	Use a chair from the Buried Vault   		
+465	CaveWall.int   ;	the portion of the cave wall which can be destroyed     		
+466	elev0.int      ;	Bos1 (Brotherhood of Steel)         		
+467	elev1.int      ;	Bos2 (entrance) 		
+468	elev2.int      ;	Master1         		
+469	elev3.int      ;	Master2 (lower-level)     		
+470	elev4.int      ;	Military Base 1 		
+471	elev5.int      ;	Military Base 2 (lower-level)       		
+472	elev6.int      ;	Vault 13        		
+473	Barfly.int     ;	some loser in the bar in Junktown   		
+474	BV2Vault.int   ;	Teleports player from the Shack to the Buried Vault     		
+475	ColaTruk.int   ;	Map Script for special random encounter Cola Truck      		
+476	FSauser.int    ;	Map Script for special random encounter Flying Sauser   		
+477	Glowent.int    ;	Map Script for Glow Entrance        		
+478	GlowMap1.int   ;	Map Script for Glow (levels 1-3)    		
+479	GlowMap2.int   ;	Map Script for Glow (Levels 4-6)    		
+480	LAAdytum.int   ;	Map Script for Adytum     		
+481	LABlades.int   ;	Map Script for the Blades from the Boneyard   		
+482	LAGunRun.int   ;	Map Script for Gun Runners from the Boneyard  		
+483	LARipper.int   ;	Map Script for the Rippers from the Boneyard  		
+484	HubEnt.int     ;	Map Script for Hub Entrance         		
+485	HubDwnTn.int   ;	Map Script for Downtown Hub         		
+486	HubHeigt.int   ;	Map Script for The Heights of Hub   		
+487	HubOldTn.int   ;	Map Script for Old Town Hub         		
+488	HubWater.int   ;	Map Script for Water Merchants of Hub         		
+489	DethCave.int   ;	Map Script for Deathclaw Cave       		
+490	DrWhoMap.int   ;	Map Script for Dr. Who special encounter      		
+491	LgFtPrnt.int   ;	Map Script for Large Foot Print special encounter       		
+492	UsedCar.int    ;	Map Script for Used Car Salesman special encounter      		
+493	TalkCows.int   ;	Map Script for Talking Cows special encounter 		
+494	JTUp2Dn.int    ;	Getting from Garage to Morbid's Lab           		
+495	JTDn2Up.int    ;	getting from Morbid's lab to Garage           		
+496	Viola.int      ;	convert from the Followers to the Children    		
+497	Surf.int       ;	dude, what's with these Children?   		
+498	ChocDoor.int   ;	Door to get out of the Children of the Cathedral        		
+499	Dane.int       ;	psycho person who knows too much    		
+500	Jonathan.int   ;	someone from the Brotherhood        		
+501	Student.int    ;	student who is learning combat in the Brotherhood       		
+502	Cath2MV.int    ;	spacial to take you from the Cathedral to the Master's Lair       		
+503	Glo4Supl.int   ;	level 4 of the Glow, Supply Room    		
+504	Hall2Mtl.int   ;	spatial script to take you from the Hall of the Dead to Motel sewers        		
+505	Hall2Shd.int   ;	spatial to take you from the Hall to the Watershed      		
+506	Motel2Hl.int   ;	spatial from the Motel to the Hall  		
+507	Lyle.int       ;	man who actually had some water rations stolen		
+508	Neal.int       ;	the bartender for the Skum Pitt.    		
+509	TrapFlor.int   ;	there is a trap on the floor in the glow      		
+510	Kenji.int      ;	Gunman hired by Gizmo to kill Killian         		
+511	GEnt2Lv1.int   ;	spatial. Glow entrance to Level 1 of the glow 		
+512	GLv12Ent.int   ;	Use the rocks to go from the Glow Level 1 to Entrance   		
+513	CTower1.int    ;	Catherdral Tower to level 1         		
+514	CTower2.int    ;	Catherdral Tower to level 2         		
+515	CTower3.int    ;	Catherdral Tower to level 3         		
+516	ExitBase.int   ;	Spatial script which will allow you to get out of the Military Base         		
+517	SSRadSco.int   ;	Shady Sands Radscorpions for the Quest        		
+518	Lars.int       ;	Sergeant of the guards in Junktown. 		
+519	elev6_m1.int   ;	Glow Elevator 1 (really *6*, but Vault 13 is in place there)      		
+520	elev7.int      ;	Glow Elevator 2 		
+521	elev9.int      ;	Necropolis Elevator       		
+522	elev10.int     ;	Extra Milb Elevator       		
+523	elev11.int     ;	Extra Glow Elevator       		
+524	GenMutan.int   ;	Generic mutant in the master's Vault		
+525	GenSarg.int    ;	Generic Sergeant mutant in the master's Vault 		
+526	MBOut2In.int   ;	door script to allow the player to get into the Military Base     		
+527	Trophy.int     ;	Neal's bowling trophy.    		
+528	Saul.int       ;	Saul, boxer for Gizmo     		
+529	Gustofer.int   ;	Saul's Manager  		
+530	Robot.int      ;	Robots from the master's lair       		
+531	VGateMut.int   ;	Super Mutant patrolling gate of the Vats.     		
+532	VPLotMut.int   ;	Super Mutant sergeant patrolling parking lot. 		
+533	VFenceMt.int   ;	Super Mutant patrolling fence of the Vats.    		
+534	DoorCode.int   ;	Script for the tape with the Vats door code.  		
+535	Guard2.int     ;	Second Garret in Watershed Map      		
+536	VDoorMut.int   ;	Vats Door Mutant		
+537	FieldB.int     ;	Force Field B: Stronghold generic   		
+538	FieldC.int     ;	Force Field C: Stronghold east side 		
+539	FieldD.int     ;	Force Field D: Stronghold north side          		
+540	FieldE.int     ;	Force Field E: Stronghold south side          		
+541	FieldF.int     ;	Force Field F: Vats security hall   		
+542	FieldG.int     ;	Force Field G: Vats elevator A      		
+543	FieldH.int     ;	Force Field H: Vats control room    		
+544	FieldI.int     ;	Force Field I: Vats hallway         		
+545	ForceCon.int   ;	Generic force field controller script         		
+546	VTeam1.int     ;	Mutant team num 1 in Vats 		
+547	VTeam2.int     ;	Mutant team num 2 in Vats 		
+548	VTeam3.int     ;	Mutant team num 3 in Vats 		
+549	VTeam4.int     ;	Mutant team num 4 in Vats 		
+550	VTeam5.int     ;	Mutant team num 5 in Vats 		
+551	VTeam6.int     ;	Mutant team num 6 in Vats 		
+552	VTeam7.int     ;	Mutant team num 7 in Vats 		
+553	VTeam8.int     ;	Mutant team num 8 in Vats 		
+554	avery.int      ;	guard for Lorenzo in the Hub        		
+555	bill.int       ;	guard for Lorenzo in the Hub        		
+556	billy.int      ;	boy who works for Dan the Brahma Man		
+557	bob.int        ;	Bob's Iguana Bits owner   		
+558	bobsign.int    ;	Sign outside Bob's Iguana Bits      		
+559	cally.int      ;	Another bodyguard for Lorenzo       		
+560	cleo.int       ;	Guard for Lorenzo in the Hub        		
+561	crvndrvr.int   ;	Generic Caravan Driver in the Hub   		
+562	dan.int        ;	Dan 'the Brahma Man'. sells brahmin 		
+563	danwife.int    ;	Dan's Wife      		
+564	deadguy.int    ;	Someone who was stupid enough to mess w/ Decker         		
+565	deckgrd.int    ;	One of Decker's Guards    		
+566	demetre.int    ;	Demetre, head of the Crimson Caravans         		
+567	fry.int        ;	Deputy Fry of the Hub Police        		
+568	dogmeat.int    ;	Dogmeat, dog who is friends w/ jacob		
+569	elecdoor.int   ;	Electronic lock on a door in the Hub		
+570	electrap.int   ;	Electronic Trap in the Thieves' Circle        		
+571	femfarmr.int   ;	Female Farmer for the Hub 		
+572	fgtgard.int    ;	Far Go Trader generic Guard         		
+573	gencop.int     ;	Generic police force in the Hub     		
+574	genfgt.int     ;	Generic Far Go Trader     		
+575	genskag.int    ;	Generic Skag of the Hub   		
+576	guido.int      ;	Guido, Manager of the Friendly Lending Company		
+577	gunlock.int    ;	Lock on the gun storage   		
+578	hbodgrd2.int   ;	Bodyguard in the Hub      		
+579	hchdgrd.int    ;	Hub Children guard        		
+580	hgenfarm.int   ;	Generic Farmer in the Hub 		
+581	hgengrd.int    ;	Generic Guard in the hub  		
+582	hightowr.int   ;	Daren Hightower, leader of the Water Merchants		
+583	htwrgrd.int    ;	One of Hightower's Guards 		
+584	htwrwife.int   ;	Hightower's wife		
+585	hubber.int     ;	Generic Hubber (Hub Dweller)        		
+586	hubcarvn.int   ;	Hub Caravan (generic)               		
+587	hubcop.int     ;	Generic Hub Cop 		
+588	hubflrcd.int   ;	Flower Child in the Hub   		
+589	hubjake.int    ;	Jacob of the Weapons Shop. Sells big toys     		
+590	hubpatnt.int   ;	Patient in the Children's hospital in the Hub 		
+591	hubsmity.int   ;	Smitty from the Hub       		
+592	jasmine.int    ;	Jasmine, second in command of the Thieves Circle        		
+593	jobpost.int    ;	Job Post where all the jobs in the Hub are posted       		
+594	kane.int       ;	Kane, second in command of the Underground    		
+595	keri.int       ;	Keri, Demetre's daughter. in the Crimson Caravans       		
+596	leon.int       ;	Leon, one of Guido's Guards         		
+597	lorenzo.int    ;	Lorenzo, seedy character who occasionally helps the Underground   		
+598	mstmerch.int   ;	Master Merchant from the hub        		
+599	richie.int     ;	Richie, guards a safe in the Hub    		
+600	rufus.int      ;	Rufus, cyber hack in the Hub        		
+601	rutger.int     ;	Rutger, second in command of the Far Go Traders         		
+602	sid.int        ;	Sid, annoying little twit who helps Beth      		
+603	thorndyk.int   ;	Thorndyke, Dr. in the Children in the Hub     		
+604	troy.int       ;	Troy, a Super Mutant in the Hub     		
+605	wmcarvn.int    ;	Water Merchants Caravan   		
+606	wtrMGrd.int    ;	Water Merchant Guards     		
+607	RadioCom.int   ;	Radio control computer in the Vats.           		
+608	Comptrol.int   ;	Super Mutant comptroller. 		
+609	HGenCvan.int   ;	Generic Hub Caravan       		
+610	VatWarn.int    ;	Warning of trap corridor in the Vats.         		
+611	VatAlert.int   ;	Spatial to set off the alarm in the Vats.     		
+612	VPlasma.int    ;	Plasma trap in the Vats.  		
+613	VBOOM.int      ;	Explosive trap in the Vats.         		
+614	VLaser.int     ;	Laser trap in the Vats.   		
+615	VMonowir.int   ;	Monowire trap in the Vats.		
+616	VLocker.int    ;	Trapped locker in the Vats.         		
+617	HBeth.int      ;	Beth who runs the general store in the Hub              		
+618	HallGrd.int    ;	Generic Gaurd in the Brotherhood Hallways     		
+619	RoomGrd.int    ;	Generic Room guard in the Brotherhood         		
+620	Spar.int       ;	Sparing match for the Brotherhoodd  		
+621	Cheater.int    ;	Cheat for QA    		
+622	Izo.int        ;	Gizmo's nijamatic bodyguard         		
+623	Katja.int      ;	Skulk in Boneyard area    		
+624	Ady2Stor.int   ;	Ladder from Adytum to the store.    		
+625	Stor2Ady.int   ;	Ladder from store to Adytum.        		
+626	FolDn2Up.int   ;	Followers, from cellar up.		
+627	FolUp2Dn.int   ;	Followers, from main level to cellar.         		
+628	HDtDn2Up.int   ;	Hub, Downtown, ladder going down to up        		
+629	HDtUp2Dn.int   ;	Hub, Downtown, ladder going up to down        		
+630	HDtVault.int   ;	Vault to FLC in the Hub             		
+631	MrHandyC.int   ;	Mr. Handy for cleaning up the Vats. 		
+632	Student.int    ;	The Students being trained in the Brotherhood 		
+633	Thomas.int     ;	trainer in the Brotherhood          		
+634	ModReact.int   ;	DO NOT ATTACH TO ANYTHING. JUST IN TO MAKE THINGS COMPILE         		
+635	Ady2Farm.int   ;	Moves dude from Adytum to hydroponic farms    		
+636	Farm2Ady.int   ;	Moves dude from hydroponic farms to Adytum    		
+637	Ady2Cell.int   ;	Moves dude from Adytum to cellars   		
+638	Cell2Ady.int   ;	Moves dude from cellars to Adytum   		
+639	GizGuard.int   ;	Gizmo's casino guards     		
+640	Ripper.int     ;	generic ripper for the Boneyard     		
+641	MutDisk.int    ;	disk w/ transmissions from mutants in Deathclaw cave    		
+642	DethClaw.int   ;	Deathclaw from the Hub    		
+643	Deathspr.int   ;	Deathclaw spore 		
+644	FishrMan.int   ;	Random fisherman.         		
+645	FishrSon.int   ;	Random fisherman's son.   		
+646	Tardis.int     ;	Script for the special Tardis encounter.                		
+647	FootMap.int    ;	Map script for giant footprint.     		
+648	WhoMap.int     ;	Map script for the Tardis map.      		
+649	TalkCow.int    ;	DOES NOT EXIST, INVALID ENTRY       		
+650	TCowMap.int    ;	DOES NOT EXIST, INVALID ENTRY       		
+651	MissBro.int    ;	Missing Brotherhood initiate in the Hub       		
+652	HubCaptr.int   ;	Captors of the missing initiate     		
+653	animfrvr.int   ;	This is a script for animating background scenery                 		
+654	ThfU2D.int     ;	ladder to go from ground to cellar of the Thieves' Circle         		
+655	ThfD2U.int     ;	ladder to go from cellar to ground of the Thieves' Circle         		
+656	MVNews.int     ;	Newspaper machine in the Master's Vault       		
+657	Dealer.int     ;	Insane used car dealer.   		
+658	UsedCar.int    ;	Map script for the used car lot.    		
+659	BroDead.int    ;	Map script for Brotherhood of Steel, destroyed version. 		
+660	ChilDead.int   ;	Map script for Cathedral, destroyed version.  		
+661	MBDead.int     ;	Map script for Military Base, destroyed version.        		
+662	Sarah.int      ;	Sarah, girlfriend to the mutant Flip.         		
+663	Agatha.int     ;	The old storyteller of Shady Sands, Agatha.   		
+664	Chuck.int      ;	Gypsy fortune-teller of Adytum.     		
+665	Alan.int       ;	Recent enthusiastic Follower convert.         		
+666	Brenden.int    ;	New Initiate of the BOS.  		
+667	Patrick.int    ;	Strange Celtic wanderer.  		
+668	Ismarc.int     ;	Extremely annoyed musician.         		
+669	Enemy.int      ;	Responses from people who don't want to talk to the dude.         		
+670	Alex.int       ;	Night watch Regulator for Adytum.   		
+671	Gideon.int     ;	Leader of the prisoners in the Master's Lair  		
+672	Jerem.int      ;	Captive in the masters Lair         		
+673	AirGrd.int     ;	Guard in the Master's Lair		
+674	AirGrd2.int    ;	Another type of Guard in the Master's Lair    		
+675	BOSLori.int    ;	Brotherhood of Steel Doctor         		
+676	Moore.int      ;	person in the master's lair         		
+677	Lucy.int       ;	person in the master's lair         		
+678	Wiggup.int     ;	mutant in the master's lair         		
+679	MadSci.int     ;	mad scientist in the master's lair  		
+680	Vincent.int    ;	mutant in the master's lair         		
+681	FARMPART.int   ;	farm parts for Adytum     		
+682	MLPrison.int   ;	Master's lair Prisoner    		
+683	GenPris.int    ;	Generic prisoner in the Master's Lair         		
+684	PrisCon.int    ;	Prison Control force Fields         		
+685	thomas2.int    ;	Thomas from the Brotherhood (on another map)  		
+686	Monster.int    ;	Monsters in the Master's Vault.     		
+687	PsyCon.int     ;	Psychic control comupter. 		
+688	Rae.int        ;	Confused mutant in the Master's Vault         		
+689	BHDoor.int     ;	main door to the Brotherhood of Steel         		
+690	BOSAsIs.int    ;	Brotherhood Dr. Assistant 		
+691	RD1Init.int    ;	Roommate in the Brotherhood         		
+692	GenInit.int    ;	Generic Initiate in the Brotherhood 		
+693	Coyote.int     ;	random dog in the wild    		
+694	Smone.int      ;	Mutants from the Master's Lair      		
+695	SmTwo.int      ;	Mutants from the Master's Lair      		
+696	Justin.int     ;	Sherrif of Hub  		
+697	Falcon1.int    ;	Bartender at the Falcon   		
+698	Merch1.int     ;	Merchant from the Hub     		
+699	Lance.int      ;	Shady Sands guard on long patrol.   		
+700	LoneRaid.int   ;	Lone Raider trying to get to camp.  		
+701	RndMerch.int   ;	Random Hub merchants.     		
+702	PalScout.int   ;	Random Paladin scouts.    		
+703	Trent.int      ;	Survivor of a Deathclaw attack.     		
+704	HDealer.int    ;	dealer in the falcon for craps      		
+705	HSlots.int     ;	slot machines in the Hub  		
+706	HRndBar.int    ;	Random dialog in the bar of the HUb 		
+707	HGenGamb.int   ;	generic gamblers in the Hub         		
+708	HHookerA.int   ;	active Hooker (for Fixt) at the Falcon in the Hub     		
+709	HJohn.int      ;	Hooker's customer in the Falcon     		
+710	HGenDeal.int   ;	Generic Dealer in the Falcon        		
+711	smpray.int     ;	praying mutants in masters Vault    		
+712	cpray.int      ;	praying children in masters Vault   		
+713	PeasVict.int   ;	Peasant victim for random encounters.         		
+714	HRoulet.int    ;	roulette dealer from the hub        		
+715	JunkPeas.int   ;	generic peasant in Junktown         		
+716	Teacher.int    ;	Teacher in the Brotherhood.         		
+717	Genscrib.int   ;	Scribe in Brotherhood     		
+718	Genknigh.int   ;	Knight in Brotherhood     		
+719	Genpalad.int   ;	Paladin in Brotherhood    		
+720	Hslots.int     ;	Slot machines in the Hub  		
+721	RipUp2Dn.int   ;	Stairs up from the Rippers' cellar. 		
+722	RipDn2Up.int   ;	Stairs down from the Rippers' hideout.        		
+723	Rd1Scrb1.int   ;	Random Scribe from the Brotherhood  		
+724	Rd1Knig.int    ;	Random Dialog for the Knights in the Brotherhood        		
+725	term.int       ;	terminal in the Brotherhood         		
+726	term1.int      ;	terminal in the Brotherhood         		
+727	term2.int      ;	terminal in the Brotherhood         		
+728	term3.int      ;	terminal in the Brotherhood         		
+729	term4.int      ;	terminal in the Brotherhood         		
+730	term5.int      ;	terminal in the Brotherhood         		
+731	term6.int      ;	terminal in the Brotherhood         		
+732	term7.int      ;	terminal in the Brotherhood         		
+733	term8.int      ;	terminal in the Brotherhood         		
+734	Locker.int     ;	generic locked locker     		
+735	Mantis.int     ;	preying Mantis  		
+736	WorkRoom.int   ;	exploding work table in the Brotherhood       		
+737	MadBrot.int    ;	mad scientist in the Brotherhood    		
+738	Women.int      ;	women in the raiders camp which can be killed 		
+739	Sink.int       ;	You can use this sink to dirty your hands     		
+740	Revulse.int    ;	Corridor of revulsion     		
+741	fieldgen.int   ;	field generator in the military base		
+742	ElevCon.int    ;	Elevator Control for the Force Fields to the Nuke Bomb            		
+743	Dogmeat.int    ;	Bomb to blow up the Followers from the Gun Runners      		
+744	BroHist.int    ;	Holodisk for the Brotherhood history		
+745	SopDisk.int    ;	Sophia's History disk of the Brotherhood      		
+746	MaxDisk.int    ;	Maxson's Version of the history of the Brotherhood      		
+747	Loot.int       ;	Fridge in the Raiders camp		
+748	HubSafe.int    ;	safe for Lorenzo's stuff            		
+749	GenRaidA.int   ;	Generic raider for random encounter 		
+750	GenRaidB.int   ;	Generic raider for random encounter 		
+751	GenRaidC.int   ;	Generic raider for random encounter 		
+752	GenMercA.int   ;	Generic Merchant for random encounter         		
+753	GenMercB.int   ;	Generic merchant for random encounter         		
+754	GenMercC.int   ;	Generic merchant for random encounter         		
+755	GenGrdA.int    ;	Generic guard for random encounter  		
+756	GenGrdB.int    ;	Generic guard for random encounter  		
+757	GenGrdC.int    ;	Generic guard for random encounter  		
+758	GenPalA.int    ;	Generic paladin for random encounter		
+759	GenPalB.int    ;	Generic paladin for random encounter		
+760	GenPalC.int    ;	Generic paladin for random encounter		
+761	CrvnTeam.int   ;	Caravan team for the random encounters        		
+762	CrvnMstr.int   ;	Animals who attack the caravan      		
+763	CrvnEnmy.int   ;	People who attack the caravans      		
+764	KillStor.int   ;	stuff for Killian's store           		
+765	CarEnctr.int   ;	Caravan Random Encounters 		
+766	GenChat.int    ;	generic message file      		
+767	CCVan.int      ;	Crimson Caravan Dealer (gives jobs) (temp)    		
+768	FGTVan.int     ;	Far Go Traders Dealer (Gives jobs) (temp)     		
+769	WMVan.int      ;	Water Merchants Dealer (gives jobs) (temp)    		
+770	LaryKnig.int   ;	Knight Larry in the Brotherhood     		
+771	VreScrib.int   ;	Vree's scribe in the Brotherhood    		
+772	vregrd.int     ;	Vree's guard    		
+773	MaxGrd.int     ;	Maxson's guard  		
+774	Jerem2.int     ;	Jeremia from the Master's Lair      		
+775	WoodDoor.int   ;	wooden door script to blow up doors 		
+776	MetlDoor.int   ;	metal door script to blow up doors  		
+777	HubEnctr.int   ;	Caravan Random encounters return to the hub   		
+778	HGenVan2.int   ;	caravan people who are leaving the hub (generic)        		
+779	FGTRtnVn.int   ;	Far Go Traders Return to the Hub    		
+780	CCRtnVn.int    ;	Crimson Caravans Return to the Hub  		
+781	WMRtnVn.int    ;	Water Merchants Return to the Hub   		
+782	AllNOne.int    ;	Merchant for the All-In-One Store   		
+783	Armory.int     ;	merchant for the Armory Store       		
+784	AdyStore.int   ;	store in Adytum           		
+785	ExitLite.int   ;	lights for scenery objects		
+786	Rope.int       ;	for message file		
+787	ArmsDeal.int   ;	Jake the Arms Dealer in the Hub     		
+788	GDoor.int      ;	Ghoul Door in Necropolis  		
+789	JunkJail.int   ;	spatial script for the junktown jail cell     		
+790	Tread.int      ;	ghoul near Vault door in Necrop     		
+791	Dirtnap.int    ;	ghouls near Water Chip in Necrop    		
+792	Valtglo.int    ;	generic ghouls in Necrop Vault      		
+793	ValtComp.int   ;	generic computer for Vault 13       		
+794	RedFarm.int    ;	red peasant farmer in the Hub       		
+795	GrnFarm.int    ;	green farmer in the Hub   		
+796	HCaravn1.int   ;	Generic Caravan Merchant Gaurd                		
+797	HCaravn2.int   ;	Generic Caravan Merchant Gaurd                		
+798	HCaravn3.int   ;	Generic Caravan Merchant Gaurd                		
+799	HCaravn4.int   ;	Generic Caravan Merchant Gaurd                		
+800	CRedDoor.int   ;	Locked door needing the red COC Badge         		
+801	CBlkDoor.int   ;	Locked door needing the Black COC Badge       		
+802	Mat.int        ;	Caravan Driver at the Hub Entrance            		
+803	Luke.int       ;	Caravan Driver at the Hub Entrance            		
+804	John.int       ;	Security guard at the Entrance of the Hub               		
+805	JDoor.int      ;	Jeremiah's secret door in the master's lair             		
+806	Library.int    ;	Library in the Vault 13   		
+807	CrashRm.int    ;	Spatial for room #1 in the Junktown crash house         		
+808	JakeDoor.int   ;	Door to Jake's shop in the Hub      		
+809	JakeDesk.int   ;	Desk in Jake's Shop in the Hub      		
+810	Bookcase.int   ;	bookcase in master's lair 		
+811	MLOps.int      ;	Master's lair Ops Control center    		
+812	Viscious.int   ;	Viscious from the Master's Lair     		
+813	VaultBox.int   ;	Water storage box in V 13 		
+814	MstrComp.int   ;	Computer in the Master's Lair       		
+815	Childoor.int   ;	Secure door in the Children in the Hub        		
+816	HWMHost.int    ;	just a guy who tells you things in the area   		
+817	CarvLead.int   ;	Generic destination person who will give you $$ (!)     		
+818	GenBCase.int   ;	generic Bookcase		
+819	BroInvad.int   ;	Brotherhood Paladins who help invade the Cathedral      		
+820	FolInvad.int   ;	Followers Invaders who help invade the Cathedral        		
+821	Mike.int       ;	Mike, the Old Town guide  		
+822	Vance.int      ;	Vance, the drug dealer in the Hub   		
+823	Junkie.int     ;	Drug Junkie in the Hub    		
+824	NDebris.int    ;	North Debris    		
+825	SDebris.int    ;	South Debris    		
+826	EDebris.int    ;	East Debris     		
+827	WDebris.int    ;	West Debris     		
+828	GPwrTerm.int   ;	Power Terminals in the Glow         		
+829	FootPrnt.int   ;	Spatial of Ghoul footprints leading to the sewer        		
+830	WMGuard.int    ;	Water Merchant Gaurd      		
+831	GSenRob.int    ;	sentry droid for the Glow 		
+832	GloYlDor.int   ;	Yellow security door in the Glow    		
+833	WMGroup.int    ;	Water Merchants--generic ppl around the merchants       		
+834	CCGuard.int    ;	Crimson Caravan guards from the Hub 		
+835	BoxGuard.int   ;	guards around the boxing arena in Junktown    		
+836	GunCache.int   ;	Cache of Gun Runners weapons        		
+837	SDoor.int      ;	Door that can't be openned		
+838	PowerMut.int   ;	Super Mutant guarding power armor   		
+839	bullbord.int   ;	Bulletin board outside of the hub   		
+840	GunCase.int    ;	Suitcase that the Gun Runners give you        		
+841	Gunther.int    ;	Just some guy in the Hub  		
+842	Slappy.int     ;	Crazed bum in the Hub     		
+843	CathShop.int   ;	Person in the Cathedral who sells things      		
+844	CathCase.int   ;	Bookcase in the cathedral to hold items       		
+845	Kyle.int       ;	Kyle from the Brotherhood 		
+846	Lemmy.int      ;	guy that Gus designed to point you around     		
+847	Bethgrd.int    ;	guys outside the weapons shop       		
+848	DCMutant.int   ;	Dying Mutant in the Deathclaw cave  		
+849	FGTCarvn.int   ;	Far Go Trader caravan peoples       		
+850	MutAmbsh.int   ;	Mutant Ambush for the Random Encounters       		
+851	DocLockr.int   ;	Doc Morbid's locker       		
+852	CrashBox.int   ;	Crash house fridge        		
+853	SkumDoor.int   ;	Skum Pit door             		
+854	SupAmbsh.int   ;	Super Mutant Ambush for random encounters     		
+855	MoatChek.int   ;	dex check for the moat    		
+856	Stranger.int   ;	Mysterious Stranger Script		
+857	SupGrd.int     ;	Supply guards for the Brotherhood   		
+858	SupDoor.int    ;	Supply door in the Brotherhood      		
+859	VWepLokr.int   ;	Vats Weapon Locker        		
+860	BroLock.int    ;	Brotherhood footlockers   		
+861	ValtDisk.int   ;	Holodisk that gives all Vault locations       		
+862	Staple.int     ;	Mrs. Stapleton in the Hub (librarian)         		
+863	Klaxon.int     ;	Alarm in the Vats         		
+864	Toggle.int     ;	Toggle switch for the Vats		
+865	Paul.int       ;	Paul from the weapons division in the Brotherhood       		
+866	HtwrLeon.int   ;	Leon the guard at the Hightower place         		
+867	VPlsTrap.int   ;	Vats Plasma Trrap         		
+868	VExdTrap.int   ;	Vats Explosion trap       		
+869	VElcTrap.int   ;	Vats Electric Trap        		
+870	HtwrGrge.int   ;	George the guard for the hightowers 		
+871	HtwrRick.int   ;	Rick, yet another of hightwoers guards        		
+872	HtwrBox.int    ;	strongbox w/ a necklace in it       		
+873	KilDoor1.int   ;	Killian Door 1            		
+874	KilDoor2.int   ;	Killian Door 2            		
+875	Emiter1a.int   ;	Force Field Emitter 1a for MBStrg12           		
+876	Field1a.int    ;	Force Field for Emitter 1a          		
+877	MorbCool.int   ;	Morbid's cooler 		
+878	HtwrDoor.int   ;	Front door to the Hightower's place 		
+879	Field2a.int    ;	Force Field for Emitter 2a          		
+880	Emiter2a.int   ;	Force Field Emitter 2a for MBStrg12           		
+881	Field3a.int    ;	Force Field for Emitter 3a          		
+882	Emiter3a.int   ;	Force Field Emitter 3a for MBStrg12           		
+883	Field4a.int    ;	Force Field for Emitter 4a          		
+884	Emiter4a.int   ;	Force Field Emitter 4a for MBStrg12           		
+885	Field5a.int    ;	Force Field for Emitter 5a          		
+886	Emiter5a.int   ;	Force Field Emitter 5a for MBStrg12           		
+887	Field6a.int    ;	Force Field for Emitter 6a          		
+888	Emiter6a.int   ;	Force Field Emitter 6a for MBStrg12           		
+889	Floater.int    ;	Generic Floaters for Random Encounters        		
+890	Lenore.int     ;	Denizen of Junktown       		
+891	BitsBob.int    ;	Iguna Bob from the Hub    		
+892	KaneDoor.int   ;	Door for Kane in the Hub  		
+893	Field1b.int    ;	Force Field for Emitter 2a          		
+894	Emiter1b.int   ;	Force Field Emitter 2a for MBStrg12           		
+895	Field2b.int    ;	Force Field for Emitter 3a          		
+896	Emiter2b.int   ;	Force Field Emitter 3a for MBStrg12           		
+897	PainFeld.int   ;	Pain Field in the Vats    		
+898	Field1c.int    ;	Force Field for Emitter 2a          		
+899	Emiter1c.int   ;	Force Field Emitter 2a for MBStrg12           		
+900	Field2c.int    ;	Force Field for Emitter 3a          		
+901	Emiter2c.int   ;	Force Field Emitter 3a for MBStrg12           		
+902	Field1d.int    ;	Force Field for Emitter 2a          		
+903	Emiter1d.int   ;	Force Field Emitter 2a for MBStrg12           		
+904	VBrokElv.int   ;	Broken elevator in the Vats         		
+905	Stuff.int      ;	the Ghouls stuff in Necropolis      		
+906	ArmDoor.int    ;	armory door in the Vats   		
+907	RegGuard.int   ;	Regulator guard for the Boneyard    		
+908	HotGhoul.int   ;	ghoul in the Hotel of Doom		
+909	LtGuard.int    ;	guards near the Lt.       		
+910	MorpComp.int   ;	computer in morpheus' room		
+911	SetDoor.int    ;	trapped and locked door   		
+912	Invader.int    ;	Invader for Necropolis    		
+913	PGuard.int     ;	Personal guard to Zimmerman         		
+914	FryStub.int    ;	a short dep Fry. in Decker's hideout		
+915	Nukegrd.int    ;	guard for nuke in masters Vault     		
+916	Hord.int       ;	hord of troops called by master     		
+917	Dugan.int      ;	The Weez        		
+918	MacRae.int     ;	Helper Blade to find Leader of Blades         		
+919	CCGuard1.int   ;	Crimson Caravan Guard 1   		
+920	CCGuard2.int   ;	Crimson Caravan Guard 2   		
+921	MomClaw.int    ;	Mother Deathclaw		
+922	RoamClaw.int   ;	Roaming Deathclaw         		
+923	BYMike.int     ;	Mike from the Boneyard (Blade)      		
+924	BYChris.int    ;	Blade Chris from the Boneyard       		
+925	BYGreg.int     ;	Blade Greg from the Boneyard        		
+926	InBlade.int    ;	Invasion Blades 		
+927	EggClaw.int    ;	Deathclaw egg   		
+928	Radscor2.int   ;	Doesn't start out hostile.		
+929	VanceBox.int   ;	Box where vance keeps his trading items       		
+930	BethBox.int    ;	Box where Beth keeps his trading items        		
+931	EmiterH.int    ;	force ield emiter for Vat Control Room        		
+932	RhomDoor.int   ;	Door to rhombus's area              		
+933	RhomLock.int   ;	Locker in rhombus' room             		
+934	WanRat2.int    ;	Non-hostile Rats		
+935	Irwin.int      ;	farmer who lost his farm  		
+936	Armor.int      ;	Armor on Kyle's worktable 		
+937	MitchBox.int   ;	Mitch's box of inven      		
+938	FarmRaid.int   ;	Raider who is attacking a farm in the Hub     		
+939	Mathia.int     ;	Maxson's Assistant        		
+940	JTile.int      ;	Spatial script to trigger door in the Master's Vault    		
+941	Stampede.int   ;	stampede random encounter 		
+942	HighEld.int    ;	Elders for the Brotherhood		
+943	MoleRat2.int   ;	Another stupid mole rat   		
+944	BroEld.int     ;	Brotherhood elder (generic)         		
+945	Rndecspl.int   ;	Another random encounter script     		
+946	IceChest.int   ;	box where Garl can place player's stuff       		
+947	LtCodes.int    ;	Codes the Lt is holding   		
+948	PrisFeld.int   ;	prisoner force field in the master's lair     		
+949	PsyField.int   ;	psycker's force field in the master's lair    		
+950	Kenny.int      ;	They killed Kenny!        		
+951	SuplyGrd.int   ;	supply guards for 1st level Brotherhood       		
+952	HubMis1.int    ;	map script for HubMis1.map		
+953	RndEcGen.int   ;	Generic Random encounter monsters   		
+954	GenLock.int    ;	generic foot locker which is locked 		
+955	RegDisk.int    ;	Regulator holodisk        		
+956	HubPris.int    ;	Prisoner in the Hub       		
+957	LAFollwr.int   ;	map script for the followers        		
+958	RaidDoor.int   ;	the cell door for tandi in the raiders        		
+959	GenEmit.int    ;	generic damaged force field emitter 		
+960	Test.int       ;	testing scripts 		
+961	chitem.int     ;	cheater         		
+962	carcust.int    ;	Generic Caravan Customers 		
+963	jboxer.int     ;	Challenger in Junktown    		
+964	stapbox.int    ;	Mrs. Stapleton's stuff [Sduibek, Fallout Fixt - updated]		
+965	invaded.int    ;	msg file for random encounter       		
+966	carcow.int     ;	caravan cow     		
+967	fke_dude.int   ;	NOT USED  fake script for Rad&amp;Poison examine mod  		
+968	alldogs.int    ;	Combined entries from all dog's MSG files [Sduibek, Fallout Fixt] 		
+969	bobstand.int   ;	Bob's Iguana Stand (the actual stand itself) [Sduibek, Fallout Fixt]        		
+970	HHookerD.int   ;	deactive Hooker (from vanilla) at the Falcon in the Hub         		
+971	massacre.int   ;	dead critters that spawn after Mutant Invasion(s) [Fallout Fixt]  		
+972	redfield.int   ;	script allowing the red fields in MB to be destroyed [Fallout Fixt]         		
+973	farmrad2.int   ;	Raider who is attacking a farm in the Hub [Fallout Fixt]		
+974	farmrad3.int   ;	Raider who is attacking a farm in the Hub [Fallout Fixt]		
+975	farmrad4.int   ;	Raider who is attacking a farm in the Hub [Fallout Fixt]		
+976	farmrad5.int   ;	Raider who is attacking a farm in the Hub [Fallout Fixt]		
+977	farmrad6.int   ;	Raider who is attacking a farm in the Hub [Fallout Fixt]		
+978	farmrad7.int   ;	Raider who is attacking a farm in the Hub [Fallout Fixt]		
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMGAAAAEACACoDgAAFgAAACgAAAAwAAAAYAAAAAEACAAAAAAAgAoAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYA1PD/ALHi/wCO1P8Aa8b/AEi4
+        /wAlqv8AAKr/AACS3AAAerkAAGKWAABKcwAAMlAA1OP/ALHH/wCOq/8Aa4//AEhz/wAlV/8AAFX/AABJ
+        3AAAPbkAADGWAAAlcwAAGVAA1NT/ALGx/wCOjv8Aa2v/AEhI/wAlJf8AAAD+AAAA3AAAALkAAACWAAAA
+        cwAAAFAA49T/AMex/wCrjv8Aj2v/AHNI/wBXJf8AVQD/AEkA3AA9ALkAMQCWACUAcwAZAFAA8NT/AOKx
+        /wDUjv8Axmv/ALhI/wCqJf8AqgD/AJIA3AB6ALkAYgCWAEoAcwAyAFAA/9T/AP+x/wD/jv8A/2v/AP9I
+        /wD/Jf8A/gD+ANwA3AC5ALkAlgCWAHMAcwBQAFAA/9TwAP+x4gD/jtQA/2vGAP9IuAD/JaoA/wCqANwA
+        kgC5AHoAlgBiAHMASgBQADIA/9TjAP+xxwD/jqsA/2uPAP9IcwD/JVcA/wBVANwASQC5AD0AlgAxAHMA
+        JQBQABkA/9TUAP+xsQD/jo4A/2trAP9ISAD/JSUA/gAAANwAAAC5AAAAlgAAAHMAAABQAAAA/+PUAP/H
+        sQD/q44A/49rAP9zSAD/VyUA/1UAANxJAAC5PQAAljEAAHMlAABQGQAA//DUAP/isQD/1I4A/8ZrAP+4
+        SAD/qiUA/6oAANySAAC5egAAlmIAAHNKAABQMgAA///UAP//sQD//44A//9rAP//SAD//yUA/v4AANzc
+        AAC5uQAAlpYAAHNzAABQUAAA8P/UAOL/sQDU/44Axv9rALj/SACq/yUAqv8AAJLcAAB6uQAAYpYAAEpz
+        AAAyUAAA4//UAMf/sQCr/44Aj/9rAHP/SABX/yUAVf8AAEncAAA9uQAAMZYAACVzAAAZUAAA1P/UALH/
+        sQCO/44Aa/9rAEj/SAAl/yUAAP4AAADcAAAAuQAAAJYAAABzAAAAUAAA1P/jALH/xwCO/6sAa/+PAEj/
+        cwAl/1cAAP9VAADcSQAAuT0AAJYxAABzJQAAUBkA1P/wALH/4gCO/9QAa//GAEj/uAAl/6oAAP+qAADc
+        kgAAuXoAAJZiAABzSgAAUDIA1P//ALH//wCO//8Aa///AEj//wAl//8AAP7+AADc3AAAubkAAJaWAABz
+        cwAAUFAA8vLyAObm5gDa2toAzs7OAMLCwgC2trYAqqqqAJ6engCSkpIAhoaGAHp6egBubm4AYmJiAFZW
+        VgBKSkoAPj4+ADIyMgAmJiYAGhoaAA4ODgDw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAPPz8/Pz8/Pz8wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADz8wPd3fvd+/vf4fPz8wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8/MD3fv73d8D3wPd
+        3d3h8/MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPPzAwPd+90D3wAAAAAD3fvd4fPz8wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA8/MD3d3d3d3f8wAAAADz893d3eHz8/MAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAADzA9/d3d3d3d3f8wAAAAAAAPPf3d3h8/PzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPMD3d3d
+        3d3d3d3fAAAAAAAAAADz3d0D8/Pz8wAAAAAAAAAAAAAAAAAAAAAAAAAA8wPd3d3d3d3d3d3zAAAAAAAA
+        AO/z3/vd4fPz8/MAAAAAAAAAAAAAAAAAAAAAAADzA93d3d3d3d3d3d0AAAAAAAAAAPjv89/d3fPz8/Pz
+        AAAAAAAAAAAAAAAAAAAAAPPd3d3f3d3d3d3d3d8AAAAAAAAAAADoAPPd++Hz8/PzAAAAAAAAAAAAAAAA
+        AAAA8wPd3/PfA93d3d3d3d8AAAAAAAAAAADo7wDf3eHz8/Pz8wAAAAAAAAAAAAAAAAAA890D8wDz39/d
+        3d3d3/MAAAAAAAAAAAD46PPd+93z8/Pz8wAAAAAAAAAAAAAAAADz3d/zAAAAAAPf3d3d3/MAAAAAAAAA
+        AADo79/d+93h8/Pz8/MAAAAAAAAAAAAAAPPz3/MAAAAAAPPf3d3d8wAAAAAAAAAAAPjv39rd3c3h8/Pz
+        8/MAAAAAAAAAAAAAAPPd8wAAAAAAAADfA/sD8wAAAAAAAAAA7/jf+93d3d3h8/Pz8/MAAAAAAAAAAAAA
+        89/d8wAAAAAAAADz3d3fAAAAAAAAAO/v6N/d+9373c3d8/Pz8/MAAAAAAAAAAAAA8wPzAAAAAAAAAADf
+        3d3f8wAAAAAA7+/ozd3d3d3d3dra8/Pz8/MAAAAAAAAAAADzAwMAAAAAAAAAAPPf3fvd3fMAAADv+PjN
+        3fvd3d373c3N8/Pz8/MAAAAAAAAAAADz3fMAAAAAAAAA89/d398D+90AAO/v+Pvd3d3d3d3d3dr78/Pz
+        8/MAAAAAAAAAAADz3fMAAAAAAAAA893dAwDz3wP78/PN+93d3d3d+9373c3h8/Pz8/MAAAAAAAAAAADz
+        3/MAAAAAAADz393fAAAA89/d89/d3d3d3d373fvd3drh8/Pz8/MAAAAAAAAAAPMD8wAAAAAAAADz393z
+        AAAAAAP739373d3d3d3d3fvd2t3h8/Pz8/MAAAAAAAAAAPPdAAAAAAAAAADz3d0AAADz89/d3d3d3d37
+        3fv7+937zd3z8/Pz8/MAAAAAAAAAAAPdAAAAAAAAAADd3d0DAPPz393d3d3d+93d+93d3fvdzd3z8/Pz
+        8wAAAAAAAAAAAAPdA/MDAwMDA83d3d3fA/MD+9373d373fvd3fv73d3a++Hz8/Pz8wAAAAAAAAAAAAPd
+        3d3d3c3dzd3d3fvd+9373fvd+93d+937+93d+93N3eHz8/Pz8wAAAAAAAAAAAAPdzd3d3d3d3d3d3d3z
+        8/Pz39373fv73d373d373dra4fPz8/Pz8wAAAAAAAAAAAAPd3d3d3d3d3d373/MAAAAA89/d+93d+/vd
+        3fvd+83N4fPz8/Pz8wAAAAAAAAAAAN/d3d3d3d37+93d8wAAAAAAAAPd3fvd3fvd+937zdrd4fPz8/Pz
+        AAAAAAAAAAAAAN/d3d373fvd3fvd8wAAAAAAAADd+9373d373fvd193f4fPz8/PzAAAAAAAAAAAAAN/d
+        3fvd3fvd+93fAAAAAAAAAADf3fvd+/vd+93N2t/h8/Pz8/PzAAAAAAAAAAAAAAPd3fvd+9373d0DAAAA
+        AAAAAADz+9373d373fvXzQPh8/Pz8/MAAAAAAAAAAAAAAAPd3d373fvd+93vAAAAAAAAAADzA/vd+937
+        3c3a3eHz8/Pz8/MAAAAAAAAAAAAAAPPd3fvd+93d3fPzAAAAAAAAAAAAA9373fvNzdfd4fPz8/Pz8wAA
+        AAAAAAAAAAAAAPPd3d3d+937zfMAAAAAAAAAAAAA8/vd2s3X2gvf4fPz8/Pz8wAAAAAAAAAAAAAAAADf
+        3d373fvd3/MAAAAAAAAAAAAAAN3dzdrN193h8/Pz8/PzAAAAAAAAAAAAAAAAAAADzd3d3fvdA/MAAAAA
+        AAAAAADv7/Pd183X++Hh8/Pz8/MAAAAAAAAAAAAAAAAAAADz2t3d+937A+8AAAAAAAAAAO/v8wPd19ff
+        4eHz8/Pz8/MAAAAAAAAAAAAAAAAAAAAAA83d3fvd8+/zAAAA7+/46O/zA/vXzd3h8/Pz8/Pz8wAAAAAA
+        AAAAAAAAAAAAAAAA883a3fvd7/j4+Pjo19fo7/Pd2s3N3+Hz8/Pz8/PzAAAAAAAAAAAAAAAAAAAAAAAA
+        AN/N2t37A9/z7+/v7+/v+/vN2s3f4fPh8/Pz8/MAAAAAAAAAAAAAAAAAAAAAAAAAAPPfzdrd+9373fvd
+        +9373d3Xzd/h3+Hh4fPz8wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD39fd3d3d+9373d37zdfd3wPfAwMD
+        4eEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA893X2s3d3d3d3drN183fA98D3/Pz8wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAPPz39rXzc3XC93N3d3fA98D8/PzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAPMD393a3d0DA98D8/Pz8wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8/Pz
+        8/Pz8/Pz8wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////AAD///wB//8AAP//8AA//wAA///AAB//
+        AAD//wAAB/8AAP/+AAAD/wAA//wAAAH/AAD/+AAAAP8AAP/wAAAAfwAA/+AAAAA/AAD/wAAAAD8AAP+A
+        AAAAHwAA/4AAAAAfAAD/AAAAAA8AAP4AAAAADwAA/gAAAAAPAAD8AAAAAA8AAPwAAAAADwAA+AAAAAAP
+        AAD4AAAAAA8AAPgAAAAADwAA+AAAAAAPAADwAAAAAA8AAPAAAAAADwAA8AAAAAAfAADwAAAAAB8AAPAA
+        AAAAHwAA8AAAAAAfAADwAAAAAB8AAPAAAAAAPwAA8AAAAAA/AADwAAAAAD8AAPAAAAAAfwAA8AAAAAB/
+        AADwAAAAAP8AAPAAAAAA/wAA+AAAAAH/AAD4AAAAA/8AAPgAAAAD/wAA/AAAAAf/AAD8AAAAD/8AAP4A
+        AAAf/wAA/gAAAD//AAD/AAAA//8AAP+AAAH//wAA/8AAA///AAD/+AAP//8AAP/+AH///wAA
+</value>
+  </data>
+</root>
