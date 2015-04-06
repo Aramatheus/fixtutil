@@ -68,19 +68,58 @@ namespace Fallout_Fixt_developer_tool
                 //Process.Start(@"C:\Users\Sduibek\Documents\Dropbox\Fallout\source\BatchFiles\RemoveMsgsFromDebuglog.bat");
 				string NewPath = @"C:\Users\Sduibek\Documents\Dropbox\Fallout\Fixtlogs\debug";
 				string DebugLogNEW = "";
-				for (int i = 1; i < 9999; i++)
-				{
-					if (i < 10) DebugLogNEW = (NewPath + "000" + i + ".log");
-					else if (i < 100) DebugLogNEW = (NewPath + "00" + i + ".log");
-					else if (i < 1000) DebugLogNEW = (NewPath + "0" + i + ".log");
-					else DebugLogNEW = (NewPath + i + ".log");
-					if (System.IO.File.Exists(DebugLogNEW)) { }
-					else
-					{
-						System.IO.File.Move(DebugLog, DebugLogNEW);
-						break;
-					}
+				
+				string[] files = System.IO.Directory.GetFiles(NewPath);
+				int highest = 0;
+				int tempHighNumber = 0;
+				string tempSuffix;
+				foreach(string name in files)
+				{ 
+				 	if(name.Contains("debug"))
+				 	{
+				 		tempSuffix = name.Substring(6, 4); //6 is debug's end, 4 is length of number string.
+				 		tempHighNumber = int.Parse (tempSuffix); //probably want to Try/Catch non number exceptions, relying on becoming 0 instead.
+				 		if(tempHighNumber < highest)
+				 		{
+				 			highest = tempHighNumber;
+				 		}
+				 	}	
 				}
+				highest += 1;
+				
+				tempSuffix = highest.ToString("D4");
+				DebugLogNEW = "debug" + tempSuffix + ".log";
+				System.IO.File.Move(DebugLog, DebugLogNEW);
+				
+				
+//				for (int i = 1; i < 9999; i++)
+//				{
+//					if (i < 10) 
+//					{ 
+//						DebugLogNEW = (NewPath + "000" + i + ".log");
+//					}
+//					else if (i < 100) 
+//					{
+//						DebugLogNEW = (NewPath + "00" + i + ".log");
+//					}
+//					else if (i < 1000)
+//					{
+//					    DebugLogNEW = (NewPath + "0" + i + ".log");
+//					}
+//					else
+//					{ 
+//						DebugLogNEW = (NewPath + i + ".log");
+//					}
+//					if (System.IO.File.Exists(DebugLogNEW)) 
+//					{ 
+//					
+//					}
+//					else
+//					{
+//						System.IO.File.Move(DebugLog, DebugLogNEW);
+//						break;
+//					}
+//				}
 			}
 		}
 
