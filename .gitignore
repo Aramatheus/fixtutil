@@ -1,16 +1,13 @@
 # These entries added by Sduibek:
 
-## "[Bb]in" && "[Rr]elease" allowed.
-## All other ignores are identical to standard VisualStudio ignores.
+## "[Rr]elease/" and "[Bb]in/"allowed. 
+## All other ignores below the separator are identical to standard VisualStudio & Windows ignores.
 
 *.application
 *vshost*.*
-
-# Don't try to commit the ones with tildes because GitHub won't allow it.
-*~1.INT
-*~1.MSG
-*~1.SSL
-*~1.TXT
+*FileListAbsolute.txt
+[Bb]in/*.exe
+[Bb]in/*.manifest
 
 # Dropbox
 .dropbox

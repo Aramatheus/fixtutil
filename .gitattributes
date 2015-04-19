@@ -2,16 +2,61 @@
 * text=auto
 
 # Custom for Visual Studio
-*.cs     diff=csharp
+*.cs  diff=csharp
 
 # Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
+*.diz  diff=astextplain
+*.DIZ  diff=astextplain
+*.doc  diff=astextplain
+*.DOC  diff=astextplain
+*.docx  diff=astextplain
+*.DOCX  diff=astextplain
 *.dot  diff=astextplain
 *.DOT  diff=astextplain
+*.log  diff=astextplain
+*.LOG  diff=astextplain
 *.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+*.PDF  diff=astextplain
+*.rtf  diff=astextplain
+*.RTF  diff=astextplain
+*.txt  diff=astextplain
+*.TXT  diff=astextplain
+
+# Binaries
+*.7z  binary -delta
+*.7Z  binary -delta
+*.bz2  binary -delta
+*.bZ2  binary -delta
+*.cab  binary -delta
+*.CAB  binary -delta
+*.dat  binary -delta
+*.DAT  binary -delta
+*.dll  binary -delta
+*.DLL  binary -delta
+*.exe  binary -delta
+*.EXE  binary -delta
+*.gz  binary -delta
+*.GZ  binary -delta
+*.jpeg  binary -delta
+*.JPEG  binary -delta
+*.jpg  binary -delta
+*.JPG  binary -delta
+*.mp3  binary -delta
+*.MP3  binary -delta
+*.msi  binary -delta
+*.MSI  binary -delta
+*.msm  binary -delta
+*.MSM  binary -delta
+*.msp  binary -delta
+*.MSP  binary -delta
+*.png  binary -delta
+*.PNG  binary -delta
+*.psd  binary -delta
+*.PSD  binary -delta
+*.rar  binary -delta
+*.RAR  binary -delta
+*.ttf  binary -delta
+*.TTF  binary -delta
+*.zip  binary -delta
+*.ZIP  binary -delta
+
