@@ -1,10 +1,21 @@
-## These ignores added by Sduibek.
+# These entries added by Sduibek:
+
 ## "[Bb]in" && "[Rr]elease" allowed.
 ## All other ignores are identical to standard VisualStudio ignores.
 
 *.application
 *vshost*.*
 
+# Don't try to commit the ones with tildes because GitHub won't allow it.
+*~1.INT
+*~1.MSG
+*~1.SSL
+*~1.TXT
+
+# Dropbox
+.dropbox
+.dropbox.attr
+.dropbox.cache
 
 ###################################################################################
 ## Ignore Visual Studio temporary files, build results, and
