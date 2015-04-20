@@ -1,13 +1,8 @@
 # These entries added by Sduibek:
 
-## "[Rr]elease/" and "[Bb]in/"allowed. 
-## All other ignores below the separator are identical to standard VisualStudio & Windows ignores.
-
 *.application
 *vshost*.*
 *FileListAbsolute.txt
-[Bb]in/*.exe
-[Bb]in/*.manifest
 
 # Dropbox
 .dropbox
@@ -27,13 +22,13 @@
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-#										[Rr]elease/
+#	[Rr]elease/
 [Rr]eleases/
 x64/
 x86/
 build/
 bld/
-#										[Bb]in/
+#	[Bb]in/
 [Oo]bj/
 
 # Roslyn cache directories
