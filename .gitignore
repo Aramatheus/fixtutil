@@ -12,8 +12,6 @@
 [Tt][Ee][Mm][Pp]/
 [Tt][Mm][Pp]/
 [Tt]emporary/
-[Tt]empPE/
-*/[Tt]empPE/
 
 #========================
 # Backup files & folders
@@ -271,13 +269,13 @@ DerivedData
 *.userosscache
 *.sln.docstates
 
-# Debug build results
+# Build results
 [Dd]ebug/
-[Dd]ebug[Pp]ublic/
+[Dd]ebugPublic/
 [Bb]in/[Dd]ebug/
-[Oo]bj/x86/[Dd]ebug/
-/[Oo]bj/x86/[Rr]elease/*.exe
-*/[Oo]bj/x86/[Rr]elease/*.exe
+x64/
+x86/
+[Oo]bj/
 
 # Roslyn cache directories
 *.ide/
